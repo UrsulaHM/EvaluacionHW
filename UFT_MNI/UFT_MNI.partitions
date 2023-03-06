@@ -1,0 +1,89 @@
+﻿<Cube xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ddl2="http://schemas.microsoft.com/analysisservices/2003/engine/2" xmlns:ddl2_2="http://schemas.microsoft.com/analysisservices/2003/engine/2/2" xmlns:ddl100_100="http://schemas.microsoft.com/analysisservices/2008/engine/100/100" xmlns:ddl200="http://schemas.microsoft.com/analysisservices/2010/engine/200" xmlns:ddl200_200="http://schemas.microsoft.com/analysisservices/2010/engine/200/200" xmlns:ddl300="http://schemas.microsoft.com/analysisservices/2011/engine/300" xmlns:ddl300_300="http://schemas.microsoft.com/analysisservices/2011/engine/300/300" xmlns:ddl400="http://schemas.microsoft.com/analysisservices/2012/engine/400" xmlns:ddl400_400="http://schemas.microsoft.com/analysisservices/2012/engine/400/400" xmlns:ddl500="http://schemas.microsoft.com/analysisservices/2013/engine/500" xmlns:ddl500_500="http://schemas.microsoft.com/analysisservices/2013/engine/500/500" xmlns:dwd="http://schemas.microsoft.com/DataWarehouse/Designer/1.0" dwd:design-time-name="448fc92f-8da9-4f97-a3a4-429ad11aa5c9" xmlns="http://schemas.microsoft.com/analysisservices/2003/engine">
+  <ID>UFT_MNI</ID>
+  <MeasureGroups>
+    <MeasureGroup>
+      <ID>v Hechos Nuevos Ingresos</ID>
+      <Partitions>
+        <Partition dwd:design-time-name="8741edbd-2dff-45c6-97a6-7273d20f53b3">
+          <ID>v Hechos Nuevos Ingresos</ID>
+          <Name>v Hechos Nuevos Ingresos</Name>
+          <CreatedTimestamp>2020-01-09T19:06:56.32Z</CreatedTimestamp>
+          <LastSchemaUpdate>2022-08-25T22:18:44.846667Z</LastSchemaUpdate>
+          <LastProcessed>2023-02-07T23:34:07.38Z</LastProcessed>
+          <State>Processed</State>
+          <Source xsi:type="DsvTableBinding" dwd:design-time-name="3eb4dd12-1760-4954-ad64-ee70be8912ae">
+            <DataSourceViewID>UFT IMB DWH</DataSourceViewID>
+            <TableID>rrec_v_hechos_nuevos_ingresos</TableID>
+          </Source>
+          <StorageMode>Molap</StorageMode>
+          <CurrentStorageMode>Molap</CurrentStorageMode>
+          <ProcessingMode>Regular</ProcessingMode>
+          <ProactiveCaching dwd:design-time-name="87283d32-601b-4a57-9df9-c7a004b9b564">
+            <SilenceInterval>-PT1S</SilenceInterval>
+            <Latency>-PT1S</Latency>
+            <SilenceOverrideInterval>-PT1S</SilenceOverrideInterval>
+            <ForceRebuildInterval>-PT1S</ForceRebuildInterval>
+            <Source xsi:type="ProactiveCachingInheritedBinding" dwd:design-time-name="dbd9fc1d-3664-4665-84a6-cdc6f0908095" />
+          </ProactiveCaching>
+          <EstimatedSize>900100</EstimatedSize>
+        </Partition>
+      </Partitions>
+    </MeasureGroup>
+    <MeasureGroup>
+      <ID>v Hechos Metas</ID>
+      <Partitions>
+        <Partition dwd:design-time-name="21aff79e-b799-404d-8a8e-89636e5a5d63">
+          <ID>v Hechos Metas</ID>
+          <Name>v Hechos Metas</Name>
+          <CreatedTimestamp>2020-01-10T20:25:07.426667Z</CreatedTimestamp>
+          <LastSchemaUpdate>2022-08-25T22:18:45.886667Z</LastSchemaUpdate>
+          <LastProcessed>2023-02-07T23:34:07.16Z</LastProcessed>
+          <State>Processed</State>
+          <Source xsi:type="DsvTableBinding" dwd:design-time-name="39e9ddfc-d3ca-4d38-a25a-14ba8712be89">
+            <DataSourceViewID>UFT IMB DWH</DataSourceViewID>
+            <TableID>rrec_v_hechos_metas</TableID>
+          </Source>
+          <StorageMode>Molap</StorageMode>
+          <CurrentStorageMode>Molap</CurrentStorageMode>
+          <ProcessingMode>Regular</ProcessingMode>
+          <ProactiveCaching dwd:design-time-name="bbaadf05-e43a-43ea-8113-4f8be47b26e8">
+            <SilenceInterval>-PT1S</SilenceInterval>
+            <Latency>-PT1S</Latency>
+            <SilenceOverrideInterval>-PT1S</SilenceOverrideInterval>
+            <ForceRebuildInterval>-PT1S</ForceRebuildInterval>
+            <Source xsi:type="ProactiveCachingInheritedBinding" dwd:design-time-name="0aa69558-908a-4dd6-aaf5-5f6010c14221" />
+          </ProactiveCaching>
+          <EstimatedSize>371590</EstimatedSize>
+        </Partition>
+      </Partitions>
+    </MeasureGroup>
+    <MeasureGroup>
+      <ID>v Hechos Cupos</ID>
+      <Partitions>
+        <Partition dwd:design-time-name="11c78621-9a5b-4f03-99a9-ea709758cf21">
+          <ID>v Hechos Cupos</ID>
+          <Name>v Hechos Cupos</Name>
+          <CreatedTimestamp>2020-01-10T20:25:07.52Z</CreatedTimestamp>
+          <LastSchemaUpdate>2022-08-25T22:18:46.216667Z</LastSchemaUpdate>
+          <LastProcessed>2023-02-07T23:34:07.01Z</LastProcessed>
+          <State>Processed</State>
+          <Source xsi:type="DsvTableBinding" dwd:design-time-name="e6a98dbc-223a-4b30-b2d7-3d12b99f7ad7">
+            <DataSourceViewID>UFT IMB DWH</DataSourceViewID>
+            <TableID>rrec_v_hechos_cupos</TableID>
+          </Source>
+          <StorageMode>Molap</StorageMode>
+          <CurrentStorageMode>Molap</CurrentStorageMode>
+          <ProcessingMode>Regular</ProcessingMode>
+          <ProactiveCaching dwd:design-time-name="4b26b7c7-94b1-4cde-8633-4ce6b528dbaa">
+            <SilenceInterval>-PT1S</SilenceInterval>
+            <Latency>-PT1S</Latency>
+            <SilenceOverrideInterval>-PT1S</SilenceOverrideInterval>
+            <ForceRebuildInterval>-PT1S</ForceRebuildInterval>
+            <Source xsi:type="ProactiveCachingInheritedBinding" dwd:design-time-name="7e06135d-7155-4e56-9f33-8155b065b350" />
+          </ProactiveCaching>
+          <EstimatedSize>194884</EstimatedSize>
+        </Partition>
+      </Partitions>
+    </MeasureGroup>
+  </MeasureGroups>
+</Cube>

@@ -1,0 +1,124 @@
+﻿<DeploymentSnapshot xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ddl2="http://schemas.microsoft.com/analysisservices/2003/engine/2" xmlns:ddl2_2="http://schemas.microsoft.com/analysisservices/2003/engine/2/2" xmlns:ddl100_100="http://schemas.microsoft.com/analysisservices/2008/engine/100/100" xmlns:ddl200="http://schemas.microsoft.com/analysisservices/2010/engine/200" xmlns:ddl200_200="http://schemas.microsoft.com/analysisservices/2010/engine/200/200" xmlns:ddl300="http://schemas.microsoft.com/analysisservices/2011/engine/300" xmlns:ddl300_300="http://schemas.microsoft.com/analysisservices/2011/engine/300/300" xmlns:ddl400="http://schemas.microsoft.com/analysisservices/2012/engine/400" xmlns:ddl400_400="http://schemas.microsoft.com/analysisservices/2012/engine/400/400" xmlns:ddl500="http://schemas.microsoft.com/analysisservices/2013/engine/500" xmlns:ddl500_500="http://schemas.microsoft.com/analysisservices/2013/engine/500/500" xmlns:dwd="http://schemas.microsoft.com/DataWarehouse/Designer/1.0">
+  <Target>
+    <Database>UFT_IMB_MNI</Database>
+    <Server>localhost</Server>
+    <ConnectionString>Data Source=localhost;Timeout=0</ConnectionString>
+  </Target>
+  <Options>
+    <TransactionalDeployment>false</TransactionalDeployment>
+    <PartitionDeployment>DeployPartitions</PartitionDeployment>
+    <RoleDeployment>DeployRolesRetainMembers</RoleDeployment>
+    <ProcessingOption>DoNotProcess</ProcessingOption>
+    <OutputScript></OutputScript>
+    <ImpactAnalysisFile></ImpactAnalysisFile>
+    <ConfigurationSettingsDeployment>Deploy</ConfigurationSettingsDeployment>
+    <OptimizationSettingsDeployment>Deploy</OptimizationSettingsDeployment>
+    <WriteBackTableCreation>UseExisting</WriteBackTableCreation>
+  </Options>
+  <Snapshot>
+    <ObjectSnapshots>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.RelationalDataSource</Type>
+        <TimeStamp>jnedE5kN+DFoMpTyha+wfOkizKw=20/02/2023 01:03:18 p. m.15/02/2023 06:35:41 p. m.</TimeStamp>
+        <ID>
+          <String>UFT IMB DWH</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.DataSourceView</Type>
+        <TimeStamp>t3jdixM2fq8uHj7xxF0IGnccE5E=15/02/2023 06:35:41 p. m.15/02/2023 06:35:41 p. m.</TimeStamp>
+        <ID>
+          <String>UFT IMB DWH</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Dimension</Type>
+        <TimeStamp>+jxDPL31z6iKxYxqJ1je2+5RXq4=15/02/2023 06:35:41 p. m.15/02/2023 06:35:41 p. m.</TimeStamp>
+        <ID>
+          <String>v Contratos</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Dimension</Type>
+        <TimeStamp>+dVtCgKiBjhse3JRIf5TSTq4pUA=15/02/2023 06:35:41 p. m.15/02/2023 06:35:41 p. m.</TimeStamp>
+        <ID>
+          <String>Dias Horas Monitoreo</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Dimension</Type>
+        <TimeStamp>00UAO64Jyx0yKF9MHRUfQJMEc4E=15/02/2023 06:35:41 p. m.15/02/2023 06:35:41 p. m.</TimeStamp>
+        <ID>
+          <String>Fechas Ultima Actualizacion</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Dimension</Type>
+        <TimeStamp>nrrCkZ3f1+ioG4KY02zD6a8MOoU=15/02/2023 06:35:41 p. m.15/02/2023 06:35:41 p. m.</TimeStamp>
+        <ID>
+          <String>v Personas</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Dimension</Type>
+        <TimeStamp>QO3qngnrB0RJjDwgD3Sg+cOS1Bs=15/02/2023 06:35:41 p. m.15/02/2023 06:35:41 p. m.</TimeStamp>
+        <ID>
+          <String>v Programas</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Dimension</Type>
+        <TimeStamp>gitGVB4bY/FmUUM386o7/SBWoRs=15/02/2023 06:35:41 p. m.15/02/2023 06:35:41 p. m.</TimeStamp>
+        <ID>
+          <String>v Registros Estudiantiles</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Dimension</Type>
+        <TimeStamp>uUVZHqlPcR/ngi/f7LSCpSf/Q+Q=15/02/2023 06:35:41 p. m.15/02/2023 06:35:41 p. m.</TimeStamp>
+        <ID>
+          <String>v Solicitudes</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Dimension</Type>
+        <TimeStamp>roB89wssc2QLCMzQpTP53XGZvxE=15/02/2023 06:35:41 p. m.15/02/2023 06:35:41 p. m.</TimeStamp>
+        <ID>
+          <String>v Via Admision</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Cube</Type>
+        <TimeStamp>LnEe7w0g8bTnT/ZwNybx0h0drzU=15/02/2023 06:35:41 p. m.15/02/2023 06:35:41 p. m.gvTfaacMLqxORuI8C1/57w25qZc=15/02/2023 06:35:41 p. m.15/02/2023 06:35:41 p. m.</TimeStamp>
+        <ID>
+          <String>UFT IMB DWH</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Role</Type>
+        <TimeStamp>KkFK4yyyisI34jl4BhHxV0A9E3g=15/02/2023 06:35:41 p. m.15/02/2023 06:35:41 p. m.</TimeStamp>
+        <ID>
+          <String>Role 2</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Role</Type>
+        <TimeStamp>+5lzyKLLqUBvgXsQQFE+87ig6Cc=15/02/2023 06:35:41 p. m.15/02/2023 06:35:41 p. m.</TimeStamp>
+        <ID>
+          <String>Role 1</String>
+        </ID>
+      </ObjectSnapshot>
+    </ObjectSnapshots>
+    <DatabaseSnapshot>
+      <Type>Microsoft.AnalysisServices.Database</Type>
+      <TimeStamp>6QPoklRpSBSLA6XmynSqKl/FeU4=15/02/2023 06:35:41 p. m.15/02/2023 06:35:41 p. m.</TimeStamp>
+      <ID>
+        <String>UFT_IMB_MNI</String>
+      </ID>
+    </DatabaseSnapshot>
+    <Granularity>Coarse</Granularity>
+  </Snapshot>
+  <AssemblyLocations />
+  <ProcessingComplete>true</ProcessingComplete>
+  <LastDeployed>2023-02-20T19:04:25.18Z</LastDeployed>
+</DeploymentSnapshot>
