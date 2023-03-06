@@ -1,0 +1,3013 @@
+﻿<Cube xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ddl2="http://schemas.microsoft.com/analysisservices/2003/engine/2" xmlns:ddl2_2="http://schemas.microsoft.com/analysisservices/2003/engine/2/2" xmlns:ddl100_100="http://schemas.microsoft.com/analysisservices/2008/engine/100/100" xmlns:ddl200="http://schemas.microsoft.com/analysisservices/2010/engine/200" xmlns:ddl200_200="http://schemas.microsoft.com/analysisservices/2010/engine/200/200" xmlns:ddl300="http://schemas.microsoft.com/analysisservices/2011/engine/300" xmlns:ddl300_300="http://schemas.microsoft.com/analysisservices/2011/engine/300/300" xmlns:ddl400="http://schemas.microsoft.com/analysisservices/2012/engine/400" xmlns:ddl400_400="http://schemas.microsoft.com/analysisservices/2012/engine/400/400" xmlns:ddl500="http://schemas.microsoft.com/analysisservices/2013/engine/500" xmlns:ddl500_500="http://schemas.microsoft.com/analysisservices/2013/engine/500/500" xmlns:dwd="http://schemas.microsoft.com/DataWarehouse/Designer/1.0" dwd:design-time-name="60b703ba-f901-4f48-a045-71b1a3f34a30" xmlns="http://schemas.microsoft.com/analysisservices/2003/engine">
+  <ID>UFT IMB DWH</ID>
+  <Name>UFT_MNI</Name>
+  <CreatedTimestamp>2020-01-09T19:06:56.213333Z</CreatedTimestamp>
+  <LastSchemaUpdate>2022-08-25T22:18:44.726667Z</LastSchemaUpdate>
+  <Annotations>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramLayout</Name>
+      <Value>
+        <dds xmlns="">
+          <diagram fontclsid="{0BE35203-8F91-11CE-9DE3-00AA004BB851}" mouseiconclsid="{0BE35204-8F91-11CE-9DE3-00AA004BB851}" defaultlayout="MSDDS.Rectilinear" defaultlineroute="MSDDS.Rectilinear" version="7" nextobject="50" scale="100" pagebreakanchorx="0" pagebreakanchory="0" pagebreaksizex="0" pagebreaksizey="0" scrollleft="-5575" scrolltop="8968" gridx="150" gridy="150" marginx="5000" marginy="5000" zoom="75" x="27649" y="11271" backcolor="16777215" defaultpersistence="2" PrintPageNumbersMode="3" PrintMarginTop="0" PrintMarginBottom="635" PrintMarginLeft="0" PrintMarginRight="0" marqueeselectionmode="0" mousepointer="0" snaptogrid="0" autotypeannotation="1" showscrollbars="1" viewpagebreaks="0" donotforceconnectorsbehindshapes="1" backpictureclsid="{00000000-0000-0000-0000-000000000000}">
+            <font>
+              <ddsxmlobjectstreamwrapper binary="01000000900144420100065461686f6d61" />
+            </font>
+            <mouseicon>
+              <ddsxmlobjectstreamwrapper binary="6c74000000000000" />
+            </mouseicon>
+          </diagram>
+          <layoutmanager>
+            <ddsxmlobj />
+          </layoutmanager>
+          <ddscontrol controlprogid="DdsShapes.DdsObjectManagedBridge.3" tooltip="v_programas" left="13551" top="14800" logicalid="23" controlid="1" masterid="0" hint1="0" hint2="0" width="5583" height="5000" noresize="0" nomove="0" nodefaultattachpoints="0" autodrag="1" usedefaultiddshape="1" selectable="1" showselectionhandles="1" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+            <control>
+              <ddsxmlobjectstreaminitwrapper binary="000a0000cf15000088130000" />
+            </control>
+            <layoutobject>
+              <ddsxmlobj>
+                <property name="LogicalObject" value="rrec_v_programas" vartype="8" />
+              </ddsxmlobj>
+            </layoutobject>
+            <shape groupshapeid="0" groupnode="0" />
+          </ddscontrol>
+          <ddscontrol controlprogid="DdsShapes.DdsObjectManagedBridge.3" tooltip="v_solicitudes" left="9652" top="22200" logicalid="24" controlid="2" masterid="0" hint1="0" hint2="0" width="5398" height="5000" noresize="0" nomove="0" nodefaultattachpoints="0" autodrag="1" usedefaultiddshape="1" selectable="1" showselectionhandles="1" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+            <control>
+              <ddsxmlobjectstreaminitwrapper binary="000a00001615000088130000" />
+            </control>
+            <layoutobject>
+              <ddsxmlobj>
+                <property name="LogicalObject" value="rrec_v_solicitudes" vartype="8" />
+              </ddsxmlobj>
+            </layoutobject>
+            <shape groupshapeid="0" groupnode="0" />
+          </ddscontrol>
+          <ddscontrol controlprogid="DdsShapes.DdsObjectManagedBridge.3" tooltip="v_registros_estudiantiles" left="13551" top="7400" logicalid="25" controlid="3" masterid="0" hint1="0" hint2="0" width="5398" height="5000" noresize="0" nomove="0" nodefaultattachpoints="0" autodrag="1" usedefaultiddshape="1" selectable="1" showselectionhandles="1" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+            <control>
+              <ddsxmlobjectstreaminitwrapper binary="000a00001615000088130000" />
+            </control>
+            <layoutobject>
+              <ddsxmlobj>
+                <property name="LogicalObject" value="rrec_v_registros_estudiantiles" vartype="8" />
+              </ddsxmlobj>
+            </layoutobject>
+            <shape groupshapeid="0" groupnode="0" />
+          </ddscontrol>
+          <ddscontrol controlprogid="DdsShapes.DdsObjectManagedBridge.3" tooltip="v_personas" left="-2819" top="-776" logicalid="26" controlid="4" masterid="0" hint1="0" hint2="0" width="3836" height="5000" noresize="0" nomove="0" nodefaultattachpoints="0" autodrag="1" usedefaultiddshape="1" selectable="1" showselectionhandles="1" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+            <control>
+              <ddsxmlobjectstreaminitwrapper binary="000a0000fc0e000088130000" />
+            </control>
+            <layoutobject>
+              <ddsxmlobj>
+                <property name="LogicalObject" value="rrec_v_personas" vartype="8" />
+              </ddsxmlobj>
+            </layoutobject>
+            <shape groupshapeid="0" groupnode="0" />
+          </ddscontrol>
+          <ddscontrol controlprogid="DdsShapes.DdsObjectManagedBridge.3" tooltip="v_dias_horas_monitoreo" left="3204" top="22200" logicalid="27" controlid="5" masterid="0" hint1="0" hint2="0" width="4048" height="3572" noresize="0" nomove="0" nodefaultattachpoints="0" autodrag="1" usedefaultiddshape="1" selectable="1" showselectionhandles="1" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+            <control>
+              <ddsxmlobjectstreaminitwrapper binary="000a0000d00f0000f40d0000" />
+            </control>
+            <layoutobject>
+              <ddsxmlobj>
+                <property name="LogicalObject" value="rrec_v_dias_horas_monitoreo" vartype="8" />
+              </ddsxmlobj>
+            </layoutobject>
+            <shape groupshapeid="0" groupnode="0" />
+          </ddscontrol>
+          <ddscontrol controlprogid="DdsShapes.DdsObjectManagedBridge.3" tooltip="v_hechos_nuevos_ingresos" left="7103" top="11100" logicalid="28" controlid="6" masterid="0" hint1="0" hint2="0" width="4048" height="5000" noresize="0" nomove="0" nodefaultattachpoints="0" autodrag="1" usedefaultiddshape="1" selectable="1" showselectionhandles="1" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+            <control>
+              <ddsxmlobjectstreaminitwrapper binary="000a0000d00f000088130000" />
+            </control>
+            <layoutobject>
+              <ddsxmlobj>
+                <property name="LogicalObject" value="rrec_v_hechos_nuevos_ingresos" vartype="8" />
+              </ddsxmlobj>
+            </layoutobject>
+            <shape groupshapeid="0" groupnode="0" />
+          </ddscontrol>
+          <ddscontrol controlprogid="DdsShapes.DdsObjectManagedBridge.3" tooltip="v_via_admision" left="-2555" top="10897" logicalid="29" controlid="7" masterid="0" hint1="0" hint2="0" width="4683" height="2302" noresize="0" nomove="0" nodefaultattachpoints="0" autodrag="1" usedefaultiddshape="1" selectable="1" showselectionhandles="1" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+            <control>
+              <ddsxmlobjectstreaminitwrapper binary="000a00004b120000fe080000" />
+            </control>
+            <layoutobject>
+              <ddsxmlobj>
+                <property name="LogicalObject" value="rrec_v_via_admision" vartype="8" />
+              </ddsxmlobj>
+            </layoutobject>
+            <shape groupshapeid="0" groupnode="0" />
+          </ddscontrol>
+          <ddscontrol controlprogid="DdsShapes.DdsObjectManagedBridge.3" tooltip="v_contratos" left="9873" top="-2117" logicalid="30" controlid="8" masterid="0" hint1="0" hint2="0" width="5450" height="5000" noresize="0" nomove="0" nodefaultattachpoints="0" autodrag="1" usedefaultiddshape="1" selectable="1" showselectionhandles="1" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+            <control>
+              <ddsxmlobjectstreaminitwrapper binary="000a00004a15000088130000" />
+            </control>
+            <layoutobject>
+              <ddsxmlobj>
+                <property name="LogicalObject" value="rrec_v_contratos" vartype="8" />
+              </ddsxmlobj>
+            </layoutobject>
+            <shape groupshapeid="0" groupnode="0" />
+          </ddscontrol>
+          <ddscontrol controlprogid="MSDDS.Polyline" left="10851" top="13850" logicalid="31" controlid="9" masterid="0" hint1="0" hint2="0" width="3000" height="3850" noresize="0" nomove="0" nodefaultattachpoints="1" autodrag="0" usedefaultiddshape="0" selectable="1" showselectionhandles="0" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+            <control>
+              <ddsxmlobj>
+                <polyline endtypedst="6" endtypesrc="3" usercolor="0" linestyle="0" linerender="1" customendtypedstid="0" customendtypesrcid="0" adornsvisible="1" />
+              </ddsxmlobj>
+            </control>
+            <layoutobject>
+              <ddsxmlobj>
+                <property name="LogicalObject" value="dataSet.Relations[v_hechos_nuevos_ingresos-v_programas]" vartype="8" />
+                <property name="Virtual" value="0" vartype="11" />
+                <property name="VisibleAP" value="0" vartype="3" />
+              </ddsxmlobj>
+            </layoutobject>
+            <connector lineroutestyle="MSDDS.Rectilinear" sourceid="1" destid="6" sourceattachpoint="26" destattachpoint="25" segmenteditmode="0" bendpointeditmode="0" bendpointvisibility="0" relatedid="0" virtual="0">
+              <point x="13551" y="17300" />
+              <point x="12351" y="17300" />
+              <point x="12351" y="14150" />
+              <point x="11151" y="14150" />
+            </connector>
+          </ddscontrol>
+          <ddscontrol controlprogid="MSDDS.Polyline" left="9377" top="15800" logicalid="32" controlid="10" masterid="0" hint1="0" hint2="0" width="3374" height="6900" noresize="0" nomove="0" nodefaultattachpoints="1" autodrag="0" usedefaultiddshape="0" selectable="1" showselectionhandles="0" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+            <control>
+              <ddsxmlobj>
+                <polyline endtypedst="6" endtypesrc="3" usercolor="0" linestyle="0" linerender="1" customendtypedstid="0" customendtypesrcid="0" adornsvisible="1" />
+              </ddsxmlobj>
+            </control>
+            <layoutobject>
+              <ddsxmlobj>
+                <property name="LogicalObject" value="dataSet.Relations[v_hechos_nuevos_ingresos-v_solicitudes]" vartype="8" />
+                <property name="Virtual" value="0" vartype="11" />
+                <property name="VisibleAP" value="0" vartype="3" />
+              </ddsxmlobj>
+            </layoutobject>
+            <connector lineroutestyle="MSDDS.Rectilinear" sourceid="2" destid="6" sourceattachpoint="8" destattachpoint="9" segmenteditmode="0" bendpointeditmode="0" bendpointvisibility="0" relatedid="0" virtual="0">
+              <point x="12351" y="22200" />
+              <point x="12351" y="19150" />
+              <point x="9677" y="19150" />
+              <point x="9677" y="16100" />
+            </connector>
+          </ddscontrol>
+          <ddscontrol controlprogid="MSDDS.Polyline" left="10851" top="9501" logicalid="33" controlid="11" masterid="0" hint1="0" hint2="0" width="3000" height="3299" noresize="0" nomove="0" nodefaultattachpoints="1" autodrag="0" usedefaultiddshape="0" selectable="1" showselectionhandles="0" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+            <control>
+              <ddsxmlobj>
+                <polyline endtypedst="6" endtypesrc="3" usercolor="0" linestyle="0" linerender="1" customendtypedstid="0" customendtypesrcid="0" adornsvisible="1" />
+              </ddsxmlobj>
+            </control>
+            <layoutobject>
+              <ddsxmlobj>
+                <property name="LogicalObject" value="dataSet.Relations[v_hechos_nuevos_ingresos-v_registros_estudiantiles]" vartype="8" />
+                <property name="Virtual" value="0" vartype="11" />
+                <property name="VisibleAP" value="0" vartype="3" />
+              </ddsxmlobj>
+            </layoutobject>
+            <connector lineroutestyle="MSDDS.Rectilinear" sourceid="3" destid="6" sourceattachpoint="26" destattachpoint="19" segmenteditmode="0" bendpointeditmode="0" bendpointvisibility="0" relatedid="0" virtual="0">
+              <point x="13551" y="9900" />
+              <point x="12351" y="9900" />
+              <point x="12351" y="12500" />
+              <point x="11151" y="12500" />
+            </connector>
+          </ddscontrol>
+          <ddscontrol controlprogid="MSDDS.Polyline" left="-1300" top="3725" logicalid="34" controlid="12" masterid="0" hint1="0" hint2="0" width="9627" height="7675" noresize="0" nomove="0" nodefaultattachpoints="1" autodrag="0" usedefaultiddshape="0" selectable="1" showselectionhandles="0" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+            <control>
+              <ddsxmlobj>
+                <polyline endtypedst="6" endtypesrc="3" usercolor="0" linestyle="0" linerender="1" customendtypedstid="0" customendtypesrcid="0" adornsvisible="1" />
+              </ddsxmlobj>
+            </control>
+            <layoutobject>
+              <ddsxmlobj>
+                <property name="LogicalObject" value="dataSet.Relations[v_hechos_nuevos_ingresos-v_personas]" vartype="8" />
+                <property name="Virtual" value="0" vartype="11" />
+                <property name="VisibleAP" value="0" vartype="3" />
+              </ddsxmlobj>
+            </layoutobject>
+            <connector lineroutestyle="MSDDS.Rectilinear" sourceid="4" destid="6" sourceattachpoint="7" destattachpoint="2" segmenteditmode="0" bendpointeditmode="0" bendpointvisibility="0" relatedid="0" virtual="0">
+              <point x="-901" y="4224" />
+              <point x="-901" y="7662" />
+              <point x="8027" y="7662" />
+              <point x="8027" y="11100" />
+            </connector>
+          </ddscontrol>
+          <ddscontrol controlprogid="MSDDS.Polyline" left="4829" top="15800" logicalid="35" controlid="13" masterid="0" hint1="0" hint2="0" width="3498" height="6900" noresize="0" nomove="0" nodefaultattachpoints="1" autodrag="0" usedefaultiddshape="0" selectable="1" showselectionhandles="0" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+            <control>
+              <ddsxmlobj>
+                <polyline endtypedst="6" endtypesrc="3" usercolor="0" linestyle="0" linerender="1" customendtypedstid="0" customendtypesrcid="0" adornsvisible="1" />
+              </ddsxmlobj>
+            </control>
+            <layoutobject>
+              <ddsxmlobj>
+                <property name="LogicalObject" value="dataSet.Relations[v_hechos_nuevos_ingresos-v_dias_horas_monitoreo]" vartype="8" />
+                <property name="Virtual" value="0" vartype="11" />
+                <property name="VisibleAP" value="0" vartype="3" />
+              </ddsxmlobj>
+            </layoutobject>
+            <connector lineroutestyle="MSDDS.Rectilinear" sourceid="5" destid="6" sourceattachpoint="6" destattachpoint="3" segmenteditmode="0" bendpointeditmode="0" bendpointvisibility="0" relatedid="0" virtual="0">
+              <point x="5228" y="22200" />
+              <point x="5228" y="19150" />
+              <point x="8027" y="19150" />
+              <point x="8027" y="16100" />
+            </connector>
+          </ddscontrol>
+          <ddscontrol controlprogid="MSDDS.Polyline" left="9377" top="2384" logicalid="36" controlid="14" masterid="0" hint1="0" hint2="0" width="3621" height="9016" noresize="0" nomove="0" nodefaultattachpoints="1" autodrag="0" usedefaultiddshape="0" selectable="1" showselectionhandles="0" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+            <control>
+              <ddsxmlobj>
+                <polyline endtypedst="6" endtypesrc="3" usercolor="0" linestyle="0" linerender="1" customendtypedstid="0" customendtypesrcid="0" adornsvisible="1" />
+              </ddsxmlobj>
+            </control>
+            <layoutobject>
+              <ddsxmlobj>
+                <property name="LogicalObject" value="dataSet.Relations[v_hechos_nuevos_ingresos-v_contratos]" vartype="8" />
+                <property name="Virtual" value="0" vartype="11" />
+                <property name="VisibleAP" value="0" vartype="3" />
+              </ddsxmlobj>
+            </layoutobject>
+            <connector lineroutestyle="MSDDS.Rectilinear" sourceid="8" destid="6" sourceattachpoint="9" destattachpoint="8" segmenteditmode="0" bendpointeditmode="0" bendpointvisibility="0" relatedid="0" virtual="0">
+              <point x="12598" y="2883" />
+              <point x="12598" y="6991" />
+              <point x="9677" y="6991" />
+              <point x="9677" y="11100" />
+            </connector>
+          </ddscontrol>
+          <ddscontrol controlprogid="MSDDS.Polyline" left="1828" top="11099" logicalid="37" controlid="15" masterid="0" hint1="0" hint2="0" width="5575" height="799" noresize="0" nomove="0" nodefaultattachpoints="1" autodrag="0" usedefaultiddshape="0" selectable="1" showselectionhandles="0" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+            <control>
+              <ddsxmlobj>
+                <polyline endtypedst="6" endtypesrc="3" usercolor="0" linestyle="0" linerender="1" customendtypedstid="0" customendtypesrcid="0" adornsvisible="1" />
+              </ddsxmlobj>
+            </control>
+            <layoutobject>
+              <ddsxmlobj>
+                <property name="LogicalObject" value="dataSet.Relations[v_hechos_nuevos_ingresos-v_via_admision]" vartype="8" />
+                <property name="Virtual" value="0" vartype="11" />
+                <property name="VisibleAP" value="0" vartype="3" />
+              </ddsxmlobj>
+            </layoutobject>
+            <connector lineroutestyle="MSDDS.Rectilinear" sourceid="7" destid="6" sourceattachpoint="19" destattachpoint="14" segmenteditmode="0" bendpointeditmode="0" bendpointvisibility="0" relatedid="0" virtual="0">
+              <point x="2128" y="11498" />
+              <point x="4615" y="11498" />
+              <point x="4615" y="11400" />
+              <point x="7103" y="11400" />
+            </connector>
+          </ddscontrol>
+          <ddscontrol controlprogid="DdsShapes.DdsObjectManagedBridge.3" tooltip="v_hechos_metas" left="0" top="0" logicalid="38" controlid="16" masterid="0" hint1="0" hint2="0" width="4551" height="2787" noresize="0" nomove="0" nodefaultattachpoints="0" autodrag="1" usedefaultiddshape="1" selectable="1" showselectionhandles="1" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+            <control>
+              <ddsxmlobjectstreaminitwrapper binary="000a0000c7110000e30a0000" />
+            </control>
+            <layoutobject>
+              <ddsxmlobj>
+                <property name="LogicalObject" value="rrec_v_hechos_metas" vartype="8" />
+              </ddsxmlobj>
+            </layoutobject>
+            <shape groupshapeid="0" groupnode="0" />
+          </ddscontrol>
+          <ddscontrol controlprogid="MSDDS.Polyline" left="3075" top="2487" logicalid="39" controlid="17" masterid="0" hint1="0" hint2="0" width="1453" height="20213" noresize="0" nomove="0" nodefaultattachpoints="1" autodrag="0" usedefaultiddshape="0" selectable="1" showselectionhandles="0" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+            <control>
+              <ddsxmlobj>
+                <polyline endtypedst="6" endtypesrc="3" usercolor="0" linestyle="0" linerender="1" customendtypedstid="0" customendtypesrcid="0" adornsvisible="1" />
+              </ddsxmlobj>
+            </control>
+            <layoutobject>
+              <ddsxmlobj>
+                <property name="LogicalObject" value="dataSet.Relations[v_hechos_metas-v_dias_horas_monitoreo]" vartype="8" />
+                <property name="Virtual" value="0" vartype="11" />
+                <property name="VisibleAP" value="0" vartype="3" />
+              </ddsxmlobj>
+            </layoutobject>
+            <connector lineroutestyle="MSDDS.Rectilinear" sourceid="5" destid="16" sourceattachpoint="2" destattachpoint="11" segmenteditmode="0" bendpointeditmode="0" bendpointvisibility="0" relatedid="0" virtual="0">
+              <point x="4128" y="22200" />
+              <point x="4128" y="12494" />
+              <point x="3375" y="12494" />
+              <point x="3375" y="2787" />
+            </connector>
+          </ddscontrol>
+          <ddscontrol controlprogid="MSDDS.Polyline" left="3625" top="2487" logicalid="40" controlid="18" masterid="0" hint1="0" hint2="0" width="11467" height="12813" noresize="0" nomove="0" nodefaultattachpoints="1" autodrag="0" usedefaultiddshape="0" selectable="1" showselectionhandles="0" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+            <control>
+              <ddsxmlobj>
+                <polyline endtypedst="6" endtypesrc="3" usercolor="0" linestyle="0" linerender="1" customendtypedstid="0" customendtypesrcid="0" adornsvisible="1" />
+              </ddsxmlobj>
+            </control>
+            <layoutobject>
+              <ddsxmlobj>
+                <property name="LogicalObject" value="dataSet.Relations[v_hechos_metas-v_programas]" vartype="8" />
+                <property name="Virtual" value="0" vartype="11" />
+                <property name="VisibleAP" value="0" vartype="3" />
+              </ddsxmlobj>
+            </layoutobject>
+            <connector lineroutestyle="MSDDS.Rectilinear" sourceid="1" destid="16" sourceattachpoint="2" destattachpoint="13" segmenteditmode="0" bendpointeditmode="0" bendpointvisibility="0" relatedid="0" virtual="0">
+              <point x="14692" y="14800" />
+              <point x="14692" y="8794" />
+              <point x="3925" y="8794" />
+              <point x="3925" y="2787" />
+            </connector>
+          </ddscontrol>
+          <ddscontrol controlprogid="MSDDS.Polyline" left="325" top="2487" logicalid="41" controlid="19" masterid="0" hint1="0" hint2="0" width="961" height="8910" noresize="0" nomove="0" nodefaultattachpoints="1" autodrag="0" usedefaultiddshape="0" selectable="1" showselectionhandles="0" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+            <control>
+              <ddsxmlobj>
+                <polyline endtypedst="6" endtypesrc="3" usercolor="0" linestyle="0" linerender="1" customendtypedstid="0" customendtypesrcid="0" adornsvisible="1" />
+              </ddsxmlobj>
+            </control>
+            <layoutobject>
+              <ddsxmlobj>
+                <property name="LogicalObject" value="dataSet.Relations[v_hechos_metas-v_via_admision]" vartype="8" />
+                <property name="Virtual" value="0" vartype="11" />
+                <property name="VisibleAP" value="0" vartype="3" />
+              </ddsxmlobj>
+            </layoutobject>
+            <connector lineroutestyle="MSDDS.Rectilinear" sourceid="7" destid="16" sourceattachpoint="12" destattachpoint="1" segmenteditmode="0" bendpointeditmode="0" bendpointvisibility="0" relatedid="0" virtual="0">
+              <point x="886" y="10897" />
+              <point x="886" y="6842" />
+              <point x="625" y="6842" />
+              <point x="625" y="2787" />
+            </connector>
+          </ddscontrol>
+          <ddscontrol controlprogid="DdsShapes.DdsObjectManagedBridge.3" tooltip="v_hechos_cupos" left="0" top="0" logicalid="42" controlid="20" masterid="0" hint1="0" hint2="0" width="4551" height="2787" noresize="0" nomove="0" nodefaultattachpoints="0" autodrag="1" usedefaultiddshape="1" selectable="1" showselectionhandles="1" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+            <control>
+              <ddsxmlobjectstreaminitwrapper binary="000a0000c7110000e30a0000" />
+            </control>
+            <layoutobject>
+              <ddsxmlobj>
+                <property name="LogicalObject" value="rrec_v_hechos_cupos" vartype="8" />
+              </ddsxmlobj>
+            </layoutobject>
+            <shape groupshapeid="0" groupnode="0" />
+          </ddscontrol>
+          <ddscontrol controlprogid="MSDDS.Polyline" left="3075" top="2487" logicalid="43" controlid="21" masterid="0" hint1="0" hint2="0" width="903" height="20213" noresize="0" nomove="0" nodefaultattachpoints="1" autodrag="0" usedefaultiddshape="0" selectable="1" showselectionhandles="0" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+            <control>
+              <ddsxmlobj>
+                <polyline endtypedst="6" endtypesrc="3" usercolor="0" linestyle="0" linerender="1" customendtypedstid="0" customendtypesrcid="0" adornsvisible="1" />
+              </ddsxmlobj>
+            </control>
+            <layoutobject>
+              <ddsxmlobj>
+                <property name="LogicalObject" value="dataSet.Relations[v_hechos_cupos-v_dias_horas_monitoreo]" vartype="8" />
+                <property name="Virtual" value="0" vartype="11" />
+                <property name="VisibleAP" value="0" vartype="3" />
+              </ddsxmlobj>
+            </layoutobject>
+            <connector lineroutestyle="MSDDS.Rectilinear" sourceid="5" destid="20" sourceattachpoint="0" destattachpoint="11" segmenteditmode="0" bendpointeditmode="0" bendpointvisibility="0" relatedid="0" virtual="0">
+              <point x="3578" y="22200" />
+              <point x="3578" y="12494" />
+              <point x="3375" y="12494" />
+              <point x="3375" y="2787" />
+            </connector>
+          </ddscontrol>
+          <ddscontrol controlprogid="MSDDS.Polyline" left="3625" top="2487" logicalid="44" controlid="22" masterid="0" hint1="0" hint2="0" width="10917" height="12813" noresize="0" nomove="0" nodefaultattachpoints="1" autodrag="0" usedefaultiddshape="0" selectable="1" showselectionhandles="0" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+            <control>
+              <ddsxmlobj>
+                <polyline endtypedst="6" endtypesrc="3" usercolor="0" linestyle="0" linerender="1" customendtypedstid="0" customendtypesrcid="0" adornsvisible="1" />
+              </ddsxmlobj>
+            </control>
+            <layoutobject>
+              <ddsxmlobj>
+                <property name="LogicalObject" value="dataSet.Relations[v_hechos_cupos-v_programas]" vartype="8" />
+                <property name="Virtual" value="0" vartype="11" />
+                <property name="VisibleAP" value="0" vartype="3" />
+              </ddsxmlobj>
+            </layoutobject>
+            <connector lineroutestyle="MSDDS.Rectilinear" sourceid="1" destid="20" sourceattachpoint="0" destattachpoint="13" segmenteditmode="0" bendpointeditmode="0" bendpointvisibility="0" relatedid="0" virtual="0">
+              <point x="14142" y="14800" />
+              <point x="14142" y="8794" />
+              <point x="3925" y="8794" />
+              <point x="3925" y="2787" />
+            </connector>
+          </ddscontrol>
+          <ddscontrol controlprogid="DdsShapes.DdsObjectManagedBridge.3" tooltip="v_fechas_ultima_actualizacion" left="5433" top="17698" logicalid="46" controlid="24" masterid="0" hint1="0" hint2="0" width="5504" height="1940" noresize="0" nomove="0" nodefaultattachpoints="0" autodrag="1" usedefaultiddshape="1" selectable="1" showselectionhandles="1" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+            <control>
+              <ddsxmlobjectstreaminitwrapper binary="000a00008015000094070000" />
+            </control>
+            <layoutobject>
+              <ddsxmlobj>
+                <property name="LogicalObject" value="rrec_v_fechas_ultima_actualizacion" vartype="8" />
+              </ddsxmlobj>
+            </layoutobject>
+            <shape groupshapeid="0" groupnode="0" />
+          </ddscontrol>
+          <ddscontrol controlprogid="MSDDS.Polyline" left="7177" top="15800" logicalid="47" controlid="25" masterid="0" hint1="0" hint2="0" width="858" height="2398" noresize="0" nomove="0" nodefaultattachpoints="1" autodrag="0" usedefaultiddshape="0" selectable="1" showselectionhandles="0" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+            <control>
+              <ddsxmlobj>
+                <polyline endtypedst="6" endtypesrc="3" usercolor="0" linestyle="0" linerender="1" customendtypedstid="0" customendtypesrcid="0" adornsvisible="1" />
+              </ddsxmlobj>
+            </control>
+            <layoutobject>
+              <ddsxmlobj>
+                <property name="LogicalObject" value="dataSet.Relations[v_hechos_nuevos_ingresos-v_fechas_ultima_actualizacion]" vartype="8" />
+                <property name="Virtual" value="0" vartype="11" />
+                <property name="VisibleAP" value="0" vartype="3" />
+              </ddsxmlobj>
+            </layoutobject>
+            <connector lineroutestyle="MSDDS.Rectilinear" sourceid="24" destid="6" sourceattachpoint="6" destattachpoint="1" segmenteditmode="0" bendpointeditmode="0" bendpointvisibility="0" relatedid="0" virtual="0">
+              <point x="7635" y="17698" />
+              <point x="7635" y="16899" />
+              <point x="7477" y="16899" />
+              <point x="7477" y="16100" />
+            </connector>
+          </ddscontrol>
+          <ddscontrol controlprogid="MSDDS.Polyline" left="-700" top="-7" logicalid="48" controlid="26" masterid="0" hint1="0" hint2="0" width="6433" height="19075" noresize="0" nomove="0" nodefaultattachpoints="1" autodrag="0" usedefaultiddshape="0" selectable="1" showselectionhandles="0" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+            <control>
+              <ddsxmlobj>
+                <polyline endtypedst="6" endtypesrc="3" usercolor="0" linestyle="0" linerender="1" customendtypedstid="0" customendtypesrcid="0" adornsvisible="1" />
+              </ddsxmlobj>
+            </control>
+            <layoutobject>
+              <ddsxmlobj>
+                <property name="LogicalObject" value="dataSet.Relations[v_hechos_metas-v_fechas_ultima_actualizacion]" vartype="8" />
+                <property name="Virtual" value="0" vartype="11" />
+                <property name="VisibleAP" value="0" vartype="3" />
+              </ddsxmlobj>
+            </layoutobject>
+            <connector lineroutestyle="MSDDS.Rectilinear" sourceid="24" destid="16" sourceattachpoint="20" destattachpoint="14" segmenteditmode="0" bendpointeditmode="0" bendpointvisibility="0" relatedid="0" virtual="0">
+              <point x="5433" y="18668" />
+              <point x="-400" y="18668" />
+              <point x="-400" y="293" />
+              <point x="0" y="293" />
+            </connector>
+          </ddscontrol>
+          <ddscontrol controlprogid="MSDDS.Polyline" left="-700" top="-7" logicalid="49" controlid="27" masterid="0" hint1="0" hint2="0" width="6433" height="18525" noresize="0" nomove="0" nodefaultattachpoints="1" autodrag="0" usedefaultiddshape="0" selectable="1" showselectionhandles="0" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+            <control>
+              <ddsxmlobj>
+                <polyline endtypedst="6" endtypesrc="3" usercolor="0" linestyle="0" linerender="1" customendtypedstid="0" customendtypesrcid="0" adornsvisible="1" />
+              </ddsxmlobj>
+            </control>
+            <layoutobject>
+              <ddsxmlobj>
+                <property name="LogicalObject" value="dataSet.Relations[v_hechos_cupos-v_fechas_ultima_actualizacion]" vartype="8" />
+                <property name="Virtual" value="0" vartype="11" />
+                <property name="VisibleAP" value="0" vartype="3" />
+              </ddsxmlobj>
+            </layoutobject>
+            <connector lineroutestyle="MSDDS.Rectilinear" sourceid="24" destid="20" sourceattachpoint="18" destattachpoint="14" segmenteditmode="0" bendpointeditmode="0" bendpointvisibility="0" relatedid="0" virtual="0">
+              <point x="5433" y="18118" />
+              <point x="-400" y="18118" />
+              <point x="-400" y="293" />
+              <point x="0" y="293" />
+            </connector>
+          </ddscontrol>
+        </dds>
+      </Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:ShowFriendlyNames</Name>
+      <Value>true</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:ShowRelationshipNames</Name>
+      <Value>false</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:UseDiagramDefaultLayout</Name>
+      <Value>true</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramViewPortLeft</Name>
+      <Value>-5575</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramViewPortTop</Name>
+      <Value>8968</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramBoundingLeft</Name>
+      <Value>-2819</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramBoundingTop</Name>
+      <Value>-2117</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramZoom</Name>
+      <Value>75</Value>
+    </Annotation>
+  </Annotations>
+  <LastProcessed>2023-02-07T23:34:07.443333Z</LastProcessed>
+  <State>Processed</State>
+  <Language>2058</Language>
+  <Collation>Modern_Spanish_CI_AS</Collation>
+  <Dimensions>
+    <Dimension dwd:design-time-name="9f6bc121-17fd-495a-a01d-12e29ddc1c5f">
+      <ID>v Contratos</ID>
+      <Name>Contratos</Name>
+      <Translations>
+        <Translation dwd:design-time-name="ac1616f4-de94-4a8c-a248-9dc13b3fdb6e">
+          <Language>1033</Language>
+          <Caption>Contratos</Caption>
+        </Translation>
+        <Translation dwd:design-time-name="c45dc44c-bfd3-40aa-b6a3-9ba8f1ec3452">
+          <Language>2058</Language>
+          <Caption>Contratos</Caption>
+        </Translation>
+      </Translations>
+      <DimensionID>v Contratos</DimensionID>
+      <Attributes>
+        <Attribute dwd:design-time-name="72476459-2129-4580-b4eb-6bbc9bf55c9d">
+          <AttributeID>Id Contrato</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="5a6ccd71-d74e-4db7-b932-35e1942a8680">
+          <AttributeID>Clave De La Vía De Admisión</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="dac23895-4bee-4e01-aecb-d1033d95572a">
+          <AttributeID>Clave Del Programa</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="056186b1-109c-41c7-a6c5-e8254ba741d4">
+          <AttributeID>Clave Del Programa Alterno</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="e0079e6b-6e02-4ffd-bc53-dc47c549cbd8">
+          <AttributeID>Programa</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="5166a100-efdf-40b3-a6d0-f8ca92227e80">
+          <AttributeID>Programa Alterno</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="88e1c096-a1a4-4137-a8d0-5c30a4e0e769">
+          <AttributeID>Clave Del Status Del Contrato</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="af2e2e31-91ce-4ad6-8e66-e4869b66bd4e">
+          <AttributeID>Status Del Contrato</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="2d87d2a0-040c-4b04-a83e-d95d2367d6d6">
+          <AttributeID>Rut</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="e6f6c801-d7c5-410c-9501-ef98db09c671">
+          <AttributeID>Fecha Del Contrato</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="2a4a5e42-e806-4389-8f24-c14123d36948">
+          <AttributeID>Periodo CON</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="b8483aea-ebb3-4f57-a4a1-a6198c2190d6">
+          <AttributeID>Descripción Periodo CON</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="337103db-b2f3-4024-b70c-1629b9f43e9d">
+          <AttributeID>Vía De Admisión</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="6282c575-dc68-4ce3-ab02-25c3ec15888d">
+          <AttributeID>Fe Fecha Retracto</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="37ed7d0b-c981-4600-9691-9c276d42000d">
+          <AttributeID>No De Contrato</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="9efe2d4e-a45a-4fe9-ac6d-54636a95f3a3">
+          <AttributeID>No Retracto</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="eb0a4d0f-f1ff-4b95-b30b-89427a3e1c9b">
+          <AttributeID>No Monto</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="af057757-b1b8-4a41-8957-1dc771f527d6">
+          <AttributeID>No Monto Pagado</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="91328709-ddf5-4ba2-b670-fd623ce322cd">
+          <AttributeID>Es Retracto</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="e39f046f-a6aa-4d73-9dbc-7e0c91e021e0">
+          <AttributeID>Nb Codigo</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="a12e5198-2717-48ec-b351-c1ebf94ea2ba">
+          <AttributeID>Tipo Retracto</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="2d706986-ad30-49da-8494-779542ea25ff">
+          <AttributeID>Año De Contrato</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="2b2c1ec2-6744-4647-851d-91dfb04460cb">
+          <AttributeID>Mes De Contrato</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="dae1e393-c581-4890-9c08-1687b75cc01c">
+          <AttributeID>Nb Facultad</AttributeID>
+        </Attribute>
+      </Attributes>
+    </Dimension>
+    <Dimension dwd:design-time-name="5f005fd7-4eac-4b23-a6c5-dd73597813c4">
+      <ID>v Solicitudes</ID>
+      <Name>Solicitudes</Name>
+      <Translations>
+        <Translation dwd:design-time-name="2431bb95-c217-4c7f-996c-1d0c11da7d4b">
+          <Language>1033</Language>
+          <Caption>Solicitudes</Caption>
+        </Translation>
+        <Translation dwd:design-time-name="540d51e1-3464-4dcc-8865-327a7025b3fd">
+          <Language>2058</Language>
+          <Caption>Solicitudes</Caption>
+        </Translation>
+      </Translations>
+      <DimensionID>v Solicitudes</DimensionID>
+      <Attributes>
+        <Attribute dwd:design-time-name="4b9f4bfd-28c2-462c-8e4d-d611e57457d2">
+          <AttributeID>Id Solicitud</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="524c60a0-f956-45c5-b9de-c723551055a7">
+          <AttributeID>Clave Del Status De Solicitud</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="d8909604-7afb-4c3c-9601-cb0fb7573db3">
+          <AttributeID>Clave Del Programa</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="be96fdd5-4b97-4789-a6bb-fb50cebfdad4">
+          <AttributeID>Status De Solicitud</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="fc3522d8-3d44-46c1-bdb4-8b8436f67ae2">
+          <AttributeID>Programa</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="fbdf35de-9a39-49cf-bea2-20b26ed7d869">
+          <AttributeID>Programa Alterno</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="c5c293dc-f716-4671-a575-7cee7366c833">
+          <AttributeID>Clave De La Decisión</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="e6e623ac-648f-4203-b5a5-5b26535ba471">
+          <AttributeID>Tipo De Admisión</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="47893815-d322-4bbc-8f2f-9a8400b698eb">
+          <AttributeID>Clave Del Programa Alterno</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="c04dc2cc-f995-4e6a-836a-9683f3c39a7c">
+          <AttributeID>Clave Del Tipo De Admisión</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="fd01473d-126d-42ca-8e79-d61507068b74">
+          <AttributeID>Decisión</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="f5d3577d-05b8-49e2-ac3c-8f9dcaf9b0e2">
+          <AttributeID>Nb Facultad</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="3021b35c-6e47-4624-bfd4-58ed1901b3b8">
+          <AttributeID>Fecha Solicitud</AttributeID>
+        </Attribute>
+      </Attributes>
+    </Dimension>
+    <Dimension dwd:design-time-name="76deeff8-ba31-461c-a5de-14348af89618">
+      <ID>v Registros Estudiantiles</ID>
+      <Name>Registros Estudiantiles</Name>
+      <DimensionID>v Registros Estudiantiles</DimensionID>
+      <Attributes>
+        <Attribute dwd:design-time-name="deea1e3f-2fdd-4deb-bc29-c8b8244813f6">
+          <AttributeID>Id Registro Estudiantil</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="f5976184-107c-4c5c-b9a4-27ce82222cdc">
+          <AttributeID>Tipo De Alumno</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="530a6955-492a-45b8-b09a-f97869f82a49">
+          <AttributeID>Clave De La Carrera</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="cc6f0161-5cdb-4325-b610-6e4603ab7de1">
+          <AttributeID>Escuela</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="f78e2a6c-4907-40cf-88c1-71be4796ea0c">
+          <AttributeID>Carrera</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="c295e4ec-38d2-4142-9dc6-61359eb4b75c">
+          <AttributeID>Clave Del Nivel Educativo</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="0cd6ba73-ea7f-47dd-a6fb-2d082f83a750">
+          <AttributeID>Programa Alterno</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="6d913e14-befd-4f9d-aadd-ff6914f18c84">
+          <AttributeID>Tipo De Admisión</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="ce3e4141-daa6-465b-86b2-bd8ee902a111">
+          <AttributeID>Nivel Educativo</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="7e7e84db-d0eb-41c2-bd2e-8acf9f62516b">
+          <AttributeID>Clave Del Grado Académico</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="af547fa1-49ba-4cd2-a0c7-86f2723d6320">
+          <AttributeID>Grado Académico</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="35a2ff2d-2228-4720-bbfc-b8dd8756b964">
+          <AttributeID>Clave Del Tipo De Admisión</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="2a5e815b-0f33-4f45-9f11-1e4d36b49533">
+          <AttributeID>Campus</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="2107266e-188d-4075-bea3-10c016f548ae">
+          <AttributeID>Código De La Escuela</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="1eb0d713-3c04-4fa9-acd6-71a0e7d9dbd2">
+          <AttributeID>Clave Del Programa Alterno</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="cfff57ea-16bf-499b-9f01-428333a29f61">
+          <AttributeID>Programa</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="a9c7519f-113c-4a4c-bf89-33212187e9bb">
+          <AttributeID>Clave Del Programa</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="33e4ea5b-3664-49a3-a8bb-c5b2b1f891a8">
+          <AttributeID>Clave Del Status Del Alumno</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="81575ce1-01ee-4797-b07d-58dcf88fd575">
+          <AttributeID>Clave Periodo Admision</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="598ad904-ef92-49bf-8e0c-682518ba4eea">
+          <AttributeID>Status Del Alumno  Calculado</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="629902d6-2380-4a63-87c6-2e9b89efb572">
+          <AttributeID>Nb Facultad</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="eec49e77-062f-49ae-a778-38f4235a8672">
+          <AttributeID>Residencia</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="27a14f08-fe29-43bd-8ef0-39990e461c82">
+          <AttributeID>Rate</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="22ded692-5ec0-4d3d-9461-b2e8bdf26dd4">
+          <AttributeID>Clave De La Residencia</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="8cf888df-7188-42f7-8110-49580c8cdc0f">
+          <AttributeID>Nivel</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="d6ccef4f-300e-4301-80aa-85cff3332608">
+          <AttributeID>Status Del Alumno</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="5163d07d-f128-4d43-9795-c3e6566e4e37">
+          <AttributeID>Clave Del Tipo De Alumno</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="7ef75862-ed18-4443-9811-67ec266c6d8f">
+          <AttributeID>Clave Del Campus</AttributeID>
+        </Attribute>
+      </Attributes>
+    </Dimension>
+    <Dimension dwd:design-time-name="f4b7856e-9a99-4196-8bb4-78aac1935daf">
+      <ID>v Personas</ID>
+      <Name>Personas</Name>
+      <DimensionID>v Personas</DimensionID>
+      <Attributes>
+        <Attribute dwd:design-time-name="67c34f07-b45b-45e7-bd7f-907446930b6b">
+          <AttributeID>Id Persona</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="30ba2d9d-9195-4a1e-b02e-3dc2d5c10904">
+          <AttributeID>Clave Persona</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="53875593-6566-468b-957f-1ddaa731cdc4">
+          <AttributeID>ID</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="cb540e6a-0376-4b20-8724-2601876bf3f0">
+          <AttributeID>Apellidos</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="b9d73c32-0144-4e5d-8beb-d33a0062e5b6">
+          <AttributeID>Nombre</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="2dfe8f24-088e-4f35-b339-e96a7d0197a9">
+          <AttributeID>Nombre Del Alumno</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="2cc9de4a-84b9-450d-be0c-207c04e90740">
+          <AttributeID>Sexo</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="77aa3aed-6bd5-49df-964a-954726ceb480">
+          <AttributeID>RUT</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="98412f6e-acd4-4ac3-8e60-63eda5a3f986">
+          <AttributeID>Fecha De Nacimiento</AttributeID>
+        </Attribute>
+      </Attributes>
+    </Dimension>
+    <Dimension dwd:design-time-name="a334743e-3586-4679-b2f6-2f30ea55b03f">
+      <ID>v Programas</ID>
+      <Name>Programas</Name>
+      <DimensionID>v Programas</DimensionID>
+      <Attributes>
+        <Attribute dwd:design-time-name="0cc77ccf-9cd5-43d3-9d42-af3e73e995b4">
+          <AttributeID>Id Programa</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="65fef981-3f2f-47d6-8e5d-dfddd94b3920">
+          <AttributeID>Nb Clave Programa</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="cb65e2ad-79e4-4f1b-ac48-21089411e6fb">
+          <AttributeID>Nb Programa</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="fd988c8f-24e7-49c7-b204-87f3dc1b817d">
+          <AttributeID>Nb Clave Programa Alterno</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="d46cef10-d8b1-493a-b8ce-35d7664a40e1">
+          <AttributeID>Nb Programa Alterno</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="5cb12fd9-0935-434a-89de-4a127c72e67e">
+          <AttributeID>Nb Facultad</AttributeID>
+        </Attribute>
+      </Attributes>
+    </Dimension>
+    <Dimension dwd:design-time-name="43743824-11c0-4f32-97b5-fd0ca877f11e">
+      <ID>v Via Admision</ID>
+      <Name>Via Admision</Name>
+      <DimensionID>v Via Admision</DimensionID>
+      <Attributes>
+        <Attribute dwd:design-time-name="3e66d0a5-f471-461f-8daa-48148ba08183">
+          <AttributeID>Id Via Admision</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="24f604b9-8017-4183-855a-83b3af925a2d">
+          <AttributeID>Clave De La Vía De Admisión</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="77ab8027-8edf-4f21-8f78-07d3d5488e41">
+          <AttributeID>Vía De Admisión</AttributeID>
+        </Attribute>
+      </Attributes>
+    </Dimension>
+    <Dimension dwd:design-time-name="7d2b31e9-4e58-460d-b525-5deb9094abf5">
+      <ID>Dias Horas Monitoreo</ID>
+      <Name>Dias Horas Monitoreo</Name>
+      <DimensionID>Dias Horas Monitoreo</DimensionID>
+      <Attributes>
+        <Attribute dwd:design-time-name="18ca8814-c6b7-4486-a1ca-8958b4a15670">
+          <AttributeID>Id Dia Hora Monitoreo</AttributeID>
+          <AttributeHierarchyVisible>false</AttributeHierarchyVisible>
+        </Attribute>
+        <Attribute dwd:design-time-name="7f4da469-0776-4228-8b77-144b95f42325">
+          <AttributeID>No Hora Ejecucion</AttributeID>
+          <AttributeHierarchyVisible>false</AttributeHierarchyVisible>
+        </Attribute>
+        <Attribute dwd:design-time-name="6950070b-619e-49a1-b394-9a89d2b5a6f0">
+          <AttributeID>Fecha</AttributeID>
+          <AttributeHierarchyVisible>false</AttributeHierarchyVisible>
+        </Attribute>
+        <Attribute dwd:design-time-name="c45c38ea-3aaa-4898-a207-8805c68aa1d6">
+          <AttributeID>Hora Monitoreo</AttributeID>
+          <AttributeHierarchyVisible>false</AttributeHierarchyVisible>
+        </Attribute>
+        <Attribute dwd:design-time-name="b2548fb4-1d68-45a4-b31b-e2510a155955">
+          <AttributeID>Periodo</AttributeID>
+          <AttributeHierarchyVisible>false</AttributeHierarchyVisible>
+        </Attribute>
+        <Attribute dwd:design-time-name="bebfbef2-b923-451d-b3cd-5258d06a25fd">
+          <AttributeID>No Dia Ejecucion</AttributeID>
+          <AttributeHierarchyVisible>false</AttributeHierarchyVisible>
+        </Attribute>
+        <Attribute dwd:design-time-name="498b516d-9a22-450c-a0f1-25c7f3cbf109">
+          <AttributeID>No Dia Ejecucion 1</AttributeID>
+          <AttributeHierarchyVisible>false</AttributeHierarchyVisible>
+        </Attribute>
+      </Attributes>
+      <Hierarchies>
+        <Hierarchy dwd:design-time-name="1be3aaaf-2554-41f9-89f2-1ea6a7b4f0fb">
+          <HierarchyID>Hierarchy</HierarchyID>
+        </Hierarchy>
+      </Hierarchies>
+    </Dimension>
+    <Dimension dwd:design-time-name="95a09196-6866-4cc8-acf1-4b2c758304d5">
+      <ID>Fechas Ultima Actualizacion</ID>
+      <Name>Fechas Ultima Actualizacion</Name>
+      <Translations>
+        <Translation dwd:design-time-name="bfac87ab-00a5-4b82-9614-861791912a93">
+          <Language>2058</Language>
+          <Caption>Fechas última Actualización</Caption>
+        </Translation>
+        <Translation dwd:design-time-name="1f26a2da-0df1-493d-9479-9854ebc0b9d2">
+          <Language>1033</Language>
+          <Caption>Fechas última Actualización</Caption>
+        </Translation>
+      </Translations>
+      <DimensionID>Fechas Ultima Actualizacion</DimensionID>
+      <Attributes>
+        <Attribute dwd:design-time-name="35c539ae-0928-4ab1-906e-5e5c8f24500e">
+          <AttributeID>Id Fecha Ultima Actualizacion</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="0517418a-efcf-484c-b5d2-2475b3e5d1bc">
+          <AttributeID>Fecha Ultima Actualizacion</AttributeID>
+        </Attribute>
+      </Attributes>
+    </Dimension>
+  </Dimensions>
+  <CubePermissions>
+    <CubePermission dwd:design-time-name="7f6c132f-9027-49d7-b680-9637ca96360d">
+      <ID>CubePermission</ID>
+      <Name>CubePermission</Name>
+      <CreatedTimestamp>2022-08-17T18:40:10.623333Z</CreatedTimestamp>
+      <LastSchemaUpdate>2022-08-25T22:18:46.516667Z</LastSchemaUpdate>
+      <RoleID>Role 1</RoleID>
+      <Read>Allowed</Read>
+      <ReadSourceData>Allowed</ReadSourceData>
+    </CubePermission>
+  </CubePermissions>
+  <MeasureGroups>
+    <MeasureGroup dwd:design-time-name="c0976216-07f2-410c-8ffc-c4460c70d705">
+      <ID>v Hechos Nuevos Ingresos</ID>
+      <Name>v Hechos Nuevos Ingresos</Name>
+      <CreatedTimestamp>2020-01-09T19:06:56.26Z</CreatedTimestamp>
+      <LastSchemaUpdate>2022-08-25T22:18:44.796667Z</LastSchemaUpdate>
+      <LastProcessed>2023-02-07T23:34:07.42Z</LastProcessed>
+      <State>Processed</State>
+      <Translations>
+        <Translation dwd:design-time-name="7e557e9a-1426-449c-8186-869f743189c6">
+          <Language>1033</Language>
+          <Caption>Hechos Nuevos Ingresos</Caption>
+        </Translation>
+        <Translation dwd:design-time-name="71f24ac9-dbd4-4e64-88a0-ae142515f7d6">
+          <Language>2058</Language>
+          <Caption>Hechos Nuevos Ingresos</Caption>
+        </Translation>
+      </Translations>
+      <Measures>
+        <Measure dwd:design-time-name="cb9716cb-f486-4109-b813-5effc35f35b0">
+          <ID>Nuevos Ingresos</ID>
+          <Name>Nuevos Ingresos</Name>
+          <DataType>Integer</DataType>
+          <Source dwd:design-time-name="62eac930-f586-4776-900f-63f1ddf8ebea">
+            <DataType>Integer</DataType>
+            <NullProcessing>Preserve</NullProcessing>
+            <Source xsi:type="ColumnBinding" dwd:design-time-name="a8f772c3-874b-4f92-b25f-916b97893e7e">
+              <TableID>rrec_v_hechos_nuevos_ingresos</TableID>
+              <ColumnID>Nuevos_x0020_ingresos</ColumnID>
+            </Source>
+          </Source>
+        </Measure>
+        <Measure dwd:design-time-name="bc917b26-5007-4e13-afca-256d5a9477c9">
+          <ID>Convocados</ID>
+          <Name>Convocados</Name>
+          <DataType>Integer</DataType>
+          <Source dwd:design-time-name="a9303e6e-025e-4c61-9043-416322cc9685">
+            <DataType>Integer</DataType>
+            <NullProcessing>Preserve</NullProcessing>
+            <Source xsi:type="ColumnBinding" dwd:design-time-name="46593486-0dfb-46fa-860e-a133f0630a0a">
+              <TableID>rrec_v_hechos_nuevos_ingresos</TableID>
+              <ColumnID>Convocados</ColumnID>
+            </Source>
+          </Source>
+        </Measure>
+        <Measure dwd:design-time-name="2fa54d5e-eb54-4f08-b311-ab84f63ca484">
+          <ID>Lista De Espera</ID>
+          <Name>Lista De Espera</Name>
+          <DataType>Integer</DataType>
+          <Source dwd:design-time-name="be1582db-7585-4386-97e0-def9e84ead30">
+            <DataType>Integer</DataType>
+            <NullProcessing>Preserve</NullProcessing>
+            <Source xsi:type="ColumnBinding" dwd:design-time-name="2e6f1804-f7f8-4316-82e6-db9a2d149dae">
+              <TableID>rrec_v_hechos_nuevos_ingresos</TableID>
+              <ColumnID>Lista_x0020_de_x0020_espera</ColumnID>
+            </Source>
+          </Source>
+        </Measure>
+        <Measure dwd:design-time-name="b28c8da1-6ec2-4a2c-8cfd-b52467b476b8">
+          <ID>Retractos</ID>
+          <Name>Retractos</Name>
+          <DataType>Integer</DataType>
+          <Source dwd:design-time-name="507d1251-f3d6-4712-a331-4d0d7fdf6ece">
+            <DataType>Integer</DataType>
+            <NullProcessing>Preserve</NullProcessing>
+            <Source xsi:type="ColumnBinding" dwd:design-time-name="f230874b-20f8-48ef-a66b-41c8c5889a17">
+              <TableID>rrec_v_hechos_nuevos_ingresos</TableID>
+              <ColumnID>Retractos</ColumnID>
+            </Source>
+          </Source>
+        </Measure>
+        <Measure dwd:design-time-name="d1e1f9cb-cae6-466a-897a-eeb9643ee9bc">
+          <ID>v Hechos Nuevos Ingresos Count</ID>
+          <Name>Contador nuevos ingresos</Name>
+          <AggregateFunction>Count</AggregateFunction>
+          <DataType>Integer</DataType>
+          <Source dwd:design-time-name="08644162-0d67-45f9-98d3-9222aa109925">
+            <DataType>Integer</DataType>
+            <DataSize>4</DataSize>
+            <Source xsi:type="RowBinding" dwd:design-time-name="6938b8a9-a9d3-4b50-a70b-6af93308eefd">
+              <TableID>rrec_v_hechos_nuevos_ingresos</TableID>
+            </Source>
+          </Source>
+          <Translations>
+            <Translation dwd:design-time-name="ba789d80-269a-4b37-80b6-34d2d0592692">
+              <Language>2058</Language>
+              <Caption>Contador Registros</Caption>
+            </Translation>
+            <Translation dwd:design-time-name="5530fa82-781e-4178-a673-5534fc7a96fc">
+              <Language>1033</Language>
+              <Caption>Contador Registros</Caption>
+            </Translation>
+          </Translations>
+        </Measure>
+      </Measures>
+      <StorageMode>Molap</StorageMode>
+      <EstimatedSize>900100</EstimatedSize>
+      <ProcessingMode>Regular</ProcessingMode>
+      <Dimensions>
+        <Dimension xsi:type="RegularMeasureGroupDimension" dwd:design-time-name="0ba20043-7099-4bcc-bbb0-7f10b041592b">
+          <CubeDimensionID>v Contratos</CubeDimensionID>
+          <Attributes>
+            <Attribute dwd:design-time-name="3bd522bf-835a-449c-b677-3eeb604cf0b3">
+              <AttributeID>Id Contrato</AttributeID>
+              <KeyColumns>
+                <KeyColumn dwd:design-time-name="bdf55048-702c-4465-9407-18666193e425">
+                  <DataType>Integer</DataType>
+                  <NullProcessing>UnknownMember</NullProcessing>
+                  <Source xsi:type="ColumnBinding" dwd:design-time-name="11dee81c-96d3-4702-ab72-e22769b14caa">
+                    <TableID>rrec_v_hechos_nuevos_ingresos</TableID>
+                    <ColumnID>id_contrato</ColumnID>
+                  </Source>
+                </KeyColumn>
+              </KeyColumns>
+              <Type>Granularity</Type>
+            </Attribute>
+            <Attribute dwd:design-time-name="220900e0-bb60-4dea-8624-1c88ff7b7f80">
+              <AttributeID>Clave De La Vía De Admisión</AttributeID>
+              <KeyColumns>
+                <KeyColumn dwd:design-time-name="5e660db9-f683-4767-a335-e81a17a8989c">
+                  <DataType>WChar</DataType>
+                  <DataSize>32</DataSize>
+                  <Source xsi:type="ColumnBinding" dwd:design-time-name="fc03281a-ab50-47a4-8c65-b290ea4cf66f">
+                    <TableID>rrec_v_contratos</TableID>
+                    <ColumnID>Clave_x0020_de_x0020_la_x0020_vía_x0020_de_x0020_admisión</ColumnID>
+                  </Source>
+                </KeyColumn>
+              </KeyColumns>
+            </Attribute>
+            <Attribute dwd:design-time-name="dbd601c1-a2fb-454a-9236-bfb945a45cf6">
+              <AttributeID>Clave Del Programa</AttributeID>
+              <KeyColumns>
+                <KeyColumn dwd:design-time-name="fe30f6b4-3ef9-492f-a9a6-ff9bd45436b9">
+                  <DataType>BigInt</DataType>
+                  <Source xsi:type="ColumnBinding" dwd:design-time-name="e8ad8fe8-cf5e-40ba-86e6-b3191b51ab8a">
+                    <TableID>rrec_v_contratos</TableID>
+                    <ColumnID>orden_programa_contrato</ColumnID>
+                  </Source>
+                </KeyColumn>
+              </KeyColumns>
+            </Attribute>
+            <Attribute dwd:design-time-name="ca51be5a-7a84-4cbb-9833-8147c0e59638">
+              <AttributeID>Clave Del Programa Alterno</AttributeID>
+              <KeyColumns>
+                <KeyColumn dwd:design-time-name="aec556f8-36be-4ce9-9dfa-bb3ccfb5ffd0">
+                  <DataType>Integer</DataType>
+                  <Source xsi:type="ColumnBinding" dwd:design-time-name="5c70b7c7-0fb0-49c7-bf51-f82bd66274d9">
+                    <TableID>rrec_v_contratos</TableID>
+                    <ColumnID>orden_programa_contrato_alterno</ColumnID>
+                  </Source>
+                </KeyColumn>
+              </KeyColumns>
+            </Attribute>
+            <Attribute dwd:design-time-name="498add59-b221-4de6-8ed3-4ece2038e6ff">
+              <AttributeID>Programa</AttributeID>
+              <KeyColumns>
+                <KeyColumn dwd:design-time-name="f00f2eaa-8f57-4502-8280-80ee3955a288">
+                  <DataType>Integer</DataType>
+                  <Source xsi:type="ColumnBinding" dwd:design-time-name="4014af6c-0b66-48a1-9518-0c589e516992">
+                    <TableID>rrec_v_contratos</TableID>
+                    <ColumnID>Orden_nombre_programa</ColumnID>
+                  </Source>
+                </KeyColumn>
+              </KeyColumns>
+            </Attribute>
+            <Attribute dwd:design-time-name="83856761-4ed9-4b98-92a9-26ea73b9eecf">
+              <AttributeID>Programa Alterno</AttributeID>
+              <KeyColumns>
+                <KeyColumn dwd:design-time-name="407ee221-ab86-4f34-abed-3cd6bf15fe7d">
+                  <DataType>Integer</DataType>
+                  <Source xsi:type="ColumnBinding" dwd:design-time-name="7c1a195b-0788-4a07-bdee-eaa462bd2027">
+                    <TableID>rrec_v_contratos</TableID>
+                    <ColumnID>Orden_nombre_programa_alterno</ColumnID>
+                  </Source>
+                </KeyColumn>
+              </KeyColumns>
+            </Attribute>
+            <Attribute dwd:design-time-name="d95e1b1a-4d3b-4f21-a225-93fd956bd8d4">
+              <AttributeID>Clave Del Status Del Contrato</AttributeID>
+              <KeyColumns>
+                <KeyColumn dwd:design-time-name="5fcd3b27-a829-40f5-94fc-c6e013ee8b8c">
+                  <DataType>WChar</DataType>
+                  <DataSize>32</DataSize>
+                  <Source xsi:type="ColumnBinding" dwd:design-time-name="88e3808c-232a-4542-9f8f-1c446945030b">
+                    <TableID>rrec_v_contratos</TableID>
+                    <ColumnID>Clave_x0020_del_x0020_status_x0020_del_x0020_contrato</ColumnID>
+                  </Source>
+                </KeyColumn>
+              </KeyColumns>
+            </Attribute>
+            <Attribute dwd:design-time-name="59b9e01f-110e-4c35-9a2c-e6871441eeb5">
+              <AttributeID>Status Del Contrato</AttributeID>
+              <KeyColumns>
+                <KeyColumn dwd:design-time-name="3f2721c2-4565-4fe9-b726-f2e1a028c07f">
+                  <DataType>WChar</DataType>
+                  <DataSize>64</DataSize>
+                  <Source xsi:type="ColumnBinding" dwd:design-time-name="be52ba70-0ed2-4bd4-b908-1eaba71735da">
+                    <TableID>rrec_v_contratos</TableID>
+                    <ColumnID>Status_x0020_del_x0020_contrato</ColumnID>
+                  </Source>
+                </KeyColumn>
+              </KeyColumns>
+            </Attribute>
+            <Attribute dwd:design-time-name="8aee50c3-0f30-4f2b-ad8f-abc715b83486">
+              <AttributeID>Rut</AttributeID>
+              <KeyColumns>
+                <KeyColumn dwd:design-time-name="7fc6a972-4127-4792-81fc-82b34efac848">
+                  <DataType>WChar</DataType>
+                  <DataSize>10</DataSize>
+                  <Source xsi:type="ColumnBinding" dwd:design-time-name="3d4b83e9-ba47-464c-ad0d-2ed6e9e5d46b">
+                    <TableID>rrec_v_contratos</TableID>
+                    <ColumnID>rut</ColumnID>
+                  </Source>
+                </KeyColumn>
+              </KeyColumns>
+            </Attribute>
+            <Attribute dwd:design-time-name="58b8c038-d6aa-47fd-91b7-8db3506957d5">
+              <AttributeID>Fecha Del Contrato</AttributeID>
+              <KeyColumns>
+                <KeyColumn dwd:design-time-name="094cc643-09de-46d2-ab4a-18d4eb229ff5">
+                  <DataType>Date</DataType>
+                  <Source xsi:type="ColumnBinding" dwd:design-time-name="d63effc5-41cb-45df-b485-27ad00ddba94">
+                    <TableID>rrec_v_contratos</TableID>
+                    <ColumnID>Fecha_x0020_del_x0020_contrato</ColumnID>
+                  </Source>
+                </KeyColumn>
+              </KeyColumns>
+            </Attribute>
+            <Attribute dwd:design-time-name="4ef9b8da-2f1d-441a-9632-57762a05da99">
+              <AttributeID>Periodo CON</AttributeID>
+              <KeyColumns>
+                <KeyColumn dwd:design-time-name="0ad522e6-9df3-4ffb-a237-ff50188eef78">
+                  <DataType>WChar</DataType>
+                  <DataSize>6</DataSize>
+                  <Source xsi:type="ColumnBinding" dwd:design-time-name="9d6593a2-2469-44dc-bfac-f4458e679f76">
+                    <TableID>rrec_v_contratos</TableID>
+                    <ColumnID>Periodo_x0020__x0028_CON_x0029_</ColumnID>
+                  </Source>
+                </KeyColumn>
+              </KeyColumns>
+            </Attribute>
+            <Attribute dwd:design-time-name="7d7234df-4442-4e13-97cb-9db8e270907f">
+              <AttributeID>Descripción Periodo CON</AttributeID>
+              <KeyColumns>
+                <KeyColumn dwd:design-time-name="ad697801-dea2-4cb0-bc60-6730a9d08292">
+                  <DataType>WChar</DataType>
+                  <DataSize>64</DataSize>
+                  <Source xsi:type="ColumnBinding" dwd:design-time-name="06cf44c5-1159-40aa-ac60-a8e2ef44d2f0">
+                    <TableID>rrec_v_contratos</TableID>
+                    <ColumnID>Descripción_x0020_periodo_x0020__x0028_CON_x0029_</ColumnID>
+                  </Source>
+                </KeyColumn>
+              </KeyColumns>
+            </Attribute>
+            <Attribute dwd:design-time-name="0c29373b-f008-40ee-8fba-7840fd7a2172">
+              <AttributeID>Vía De Admisión</AttributeID>
+              <KeyColumns>
+                <KeyColumn dwd:design-time-name="43275ff8-042b-4177-82bd-8153e47c97db">
+                  <DataType>Integer</DataType>
+                  <Source xsi:type="ColumnBinding" dwd:design-time-name="17644c59-8de1-4cde-bf4a-5fca488400f5">
+                    <TableID>rrec_v_contratos</TableID>
+                    <ColumnID>orden_via_admision</ColumnID>
+                  </Source>
+                </KeyColumn>
+              </KeyColumns>
+            </Attribute>
+            <Attribute dwd:design-time-name="c34b9e4f-d870-43f3-94d9-ecf81b0ace69">
+              <AttributeID>Fe Fecha Retracto</AttributeID>
+              <KeyColumns>
+                <KeyColumn dwd:design-time-name="1c20dbfa-4c11-4bb5-9c2e-737a43b0529f">
+                  <DataType>Date</DataType>
+                  <Source xsi:type="ColumnBinding" dwd:design-time-name="277cd89d-dc45-4a5e-8103-502d41946243">
+                    <TableID>rrec_v_contratos</TableID>
+                    <ColumnID>fe_fecha_retracto</ColumnID>
+                  </Source>
+                </KeyColumn>
+              </KeyColumns>
+            </Attribute>
+            <Attribute dwd:design-time-name="f060d71a-6fb1-414c-9373-e3fb536fff11">
+              <AttributeID>No De Contrato</AttributeID>
+              <KeyColumns>
+                <KeyColumn dwd:design-time-name="346aeee4-f7d4-418c-aac6-edafbdc94ce5">
+                  <DataType>WChar</DataType>
+                  <DataSize>10</DataSize>
+                  <Source xsi:type="ColumnBinding" dwd:design-time-name="c77d0f0f-4ac3-4c16-a9b8-e65c63ba04cd">
+                    <TableID>rrec_v_contratos</TableID>
+                    <ColumnID>No._x0020_de_x0020_contrato</ColumnID>
+                  </Source>
+                </KeyColumn>
+              </KeyColumns>
+            </Attribute>
+            <Attribute dwd:design-time-name="0a6fe7d9-6bca-472d-8e5b-57f6ca953307">
+              <AttributeID>No Retracto</AttributeID>
+              <KeyColumns>
+                <KeyColumn dwd:design-time-name="a5abf80a-782c-42e5-b8d1-6c887b838a6d">
+                  <DataType>Double</DataType>
+                  <Source xsi:type="ColumnBinding" dwd:design-time-name="7a695429-8526-444c-9213-d8f52d0c668f">
+                    <TableID>rrec_v_contratos</TableID>
+                    <ColumnID>no_retracto</ColumnID>
+                  </Source>
+                </KeyColumn>
+              </KeyColumns>
+            </Attribute>
+            <Attribute dwd:design-time-name="eda73ea3-5ed5-4db0-9cab-f34bbabcfc6a">
+              <AttributeID>No Monto</AttributeID>
+              <KeyColumns>
+                <KeyColumn dwd:design-time-name="7337f075-3fe4-45c0-82e5-bbd7451fa4c2">
+                  <DataType>Double</DataType>
+                  <Source xsi:type="ColumnBinding" dwd:design-time-name="eff36524-3184-4a95-a5b4-d9b6a0e32150">
+                    <TableID>rrec_v_contratos</TableID>
+                    <ColumnID>no_monto</ColumnID>
+                  </Source>
+                </KeyColumn>
+              </KeyColumns>
+            </Attribute>
+            <Attribute dwd:design-time-name="4f08d969-4e1d-4a44-ba71-5537afd8fd9f">
+              <AttributeID>No Monto Pagado</AttributeID>
+              <KeyColumns>
+                <KeyColumn dwd:design-time-name="6a483a77-d84f-4a0e-9a55-3d83d32f824c">
+                  <DataType>Double</DataType>
+                  <Source xsi:type="ColumnBinding" dwd:design-time-name="d4e10a86-1a77-47aa-b011-5eac4776e9f1">
+                    <TableID>rrec_v_contratos</TableID>
+                    <ColumnID>no_monto_pagado</ColumnID>
+                  </Source>
+                </KeyColumn>
+              </KeyColumns>
+            </Attribute>
+            <Attribute dwd:design-time-name="8521c37f-1d34-41f3-b4ae-c6f50af63e8e">
+              <AttributeID>Es Retracto</AttributeID>
+              <KeyColumns>
+                <KeyColumn dwd:design-time-name="3a920cdb-f03e-4c93-93ac-dfc43744180c">
+                  <DataType>WChar</DataType>
+                  <DataSize>14</DataSize>
+                  <Source xsi:type="ColumnBinding" dwd:design-time-name="db41cb5d-9217-43c8-8b6a-5f5b56cda6ed">
+                    <TableID>rrec_v_contratos</TableID>
+                    <ColumnID>Es_retracto</ColumnID>
+                  </Source>
+                </KeyColumn>
+              </KeyColumns>
+            </Attribute>
+            <Attribute dwd:design-time-name="98a2f995-c035-4cf9-8d9a-5e57cf9c20fd">
+              <AttributeID>Nb Codigo</AttributeID>
+              <KeyColumns>
+                <KeyColumn dwd:design-time-name="bf9906c8-8585-4b74-a0cf-33f8c0c6d1ef">
+                  <DataType>WChar</DataType>
+                  <DataSize>4</DataSize>
+                  <Source xsi:type="ColumnBinding" dwd:design-time-name="61d77b3a-d763-4eef-97b0-24e95a70e199">
+                    <TableID>rrec_v_contratos</TableID>
+                    <ColumnID>nb_codigo</ColumnID>
+                  </Source>
+                </KeyColumn>
+              </KeyColumns>
+            </Attribute>
+            <Attribute dwd:design-time-name="c61b4e39-2141-4e82-aee4-058173876b07">
+              <AttributeID>Tipo Retracto</AttributeID>
+              <KeyColumns>
+                <KeyColumn dwd:design-time-name="c7cf5dbb-97b5-45bf-9585-41d76a533d24">
+                  <DataType>WChar</DataType>
+                  <DataSize>21</DataSize>
+                  <Source xsi:type="ColumnBinding" dwd:design-time-name="df17b97f-5492-482e-98ce-5693d80808c7">
+                    <TableID>rrec_v_contratos</TableID>
+                    <ColumnID>tipo_retracto</ColumnID>
+                  </Source>
+                </KeyColumn>
+              </KeyColumns>
+            </Attribute>
+            <Attribute dwd:design-time-name="408ebc4a-64d3-4684-a11b-cce48fad8775">
+              <AttributeID>Año De Contrato</AttributeID>
+              <KeyColumns>
+                <KeyColumn dwd:design-time-name="3bb01d0f-71a7-4134-8499-76b481284eab">
+                  <DataType>Integer</DataType>
+                  <Source xsi:type="ColumnBinding" dwd:design-time-name="d467e6f8-9143-46c2-a216-74af6bfb4a58">
+                    <TableID>rrec_v_contratos</TableID>
+                    <ColumnID>Año_x0020_de_x0020_contrato</ColumnID>
+                  </Source>
+                </KeyColumn>
+              </KeyColumns>
+            </Attribute>
+            <Attribute dwd:design-time-name="f4d24015-c97f-40a6-b90a-910a057a4898">
+              <AttributeID>Mes De Contrato</AttributeID>
+              <KeyColumns>
+                <KeyColumn dwd:design-time-name="e364581b-34a2-4032-9f60-114d5376d1fd">
+                  <DataType>WChar</DataType>
+                  <DataSize>32</DataSize>
+                  <Source xsi:type="ColumnBinding" dwd:design-time-name="c9274d0f-2f8f-4bcc-95ba-8a11d2ca3df5">
+                    <TableID>rrec_v_contratos</TableID>
+                    <ColumnID>Mes_x0020_de_x0020_contrato</ColumnID>
+                  </Source>
+                </KeyColumn>
+              </KeyColumns>
+            </Attribute>
+            <Attribute dwd:design-time-name="1ff35c7a-c965-464c-9dbc-9fda4b0f4267">
+              <AttributeID>Nb Facultad</AttributeID>
+              <KeyColumns>
+                <KeyColumn dwd:design-time-name="307fa9d1-e913-4d4a-9bd6-9a04ebaffd2a">
+                  <DataType>WChar</DataType>
+                  <DataSize>64</DataSize>
+                  <Source xsi:type="ColumnBinding" dwd:design-time-name="f4c41a1d-3dd1-417e-8ff0-53e5430c3f90">
+                    <TableID>rrec_v_contratos</TableID>
+                    <ColumnID>nb_facultad</ColumnID>
+                  </Source>
+                </KeyColumn>
+              </KeyColumns>
+            </Attribute>
+          </Attributes>
+        </Dimension>
+        <Dimension xsi:type="RegularMeasureGroupDimension" dwd:design-time-name="12c2fe81-ce93-4172-9cbb-a8bb57999ab9">
+          <CubeDimensionID>v Solicitudes</CubeDimensionID>
+          <Attributes>
+            <Attribute dwd:design-time-name="a259b142-0b0f-4cdb-a959-591ec18a89ab">
+              <AttributeID>Id Solicitud</AttributeID>
+              <KeyColumns>
+                <KeyColumn dwd:design-time-name="4c95a15d-cd69-429b-8ebe-454f7100a951">
+                  <DataType>Integer</DataType>
+                  <NullProcessing>UnknownMember</NullProcessing>
+                  <Source xsi:type="ColumnBinding" dwd:design-time-name="beca7a6a-f73c-41cb-958c-0f2e3158369c">
+                    <TableID>rrec_v_hechos_nuevos_ingresos</TableID>
+                    <ColumnID>id_solicitud</ColumnID>
+                  </Source>
+                </KeyColumn>
+              </KeyColumns>
+              <Type>Granularity</Type>
+            </Attribute>
+            <Attribute dwd:design-time-name="96ef03c7-e5e3-4d58-a557-ecaa010c708c">
+              <AttributeID>Clave Del Status De Solicitud</AttributeID>
+              <KeyColumns>
+                <KeyColumn dwd:design-time-name="71b21b91-219c-4dab-ae7d-57eebc78850c">
+                  <DataType>WChar</DataType>
+                  <DataSize>3</DataSize>
+                  <Source xsi:type="ColumnBinding" dwd:design-time-name="29e091f0-55db-4ad6-a526-69c86cdde3bd">
+                    <TableID>rrec_v_solicitudes</TableID>
+                    <ColumnID>Clave_x0020_del_x0020_Status_x0020_de_x0020_solicitud</ColumnID>
+                  </Source>
+                </KeyColumn>
+              </KeyColumns>
+            </Attribute>
+            <Attribute dwd:design-time-name="169fcde7-7a1c-4c14-9c28-45d1cb0cb301">
+              <AttributeID>Clave Del Programa</AttributeID>
+              <KeyColumns>
+                <KeyColumn dwd:design-time-name="011008d8-577b-41e2-a02e-3346916a9b07">
+                  <DataType>BigInt</DataType>
+                  <Source xsi:type="ColumnBinding" dwd:design-time-name="8a308874-1f06-4d52-94dc-e31fc1507921">
+                    <TableID>rrec_v_solicitudes</TableID>
+                    <ColumnID>Orden_programa</ColumnID>
+                  </Source>
+                </KeyColumn>
+              </KeyColumns>
+            </Attribute>
+            <Attribute dwd:design-time-name="4cd0c63b-1aad-46aa-86f6-a782027b3aef">
+              <AttributeID>Status De Solicitud</AttributeID>
+              <KeyColumns>
+                <KeyColumn dwd:design-time-name="facbec41-1ab3-4805-851b-a9219651a13f">
+                  <DataType>WChar</DataType>
+                  <DataSize>64</DataSize>
+                  <Source xsi:type="ColumnBinding" dwd:design-time-name="fc256d47-9d80-4afd-a843-8e7518711e80">
+                    <TableID>rrec_v_solicitudes</TableID>
+                    <ColumnID>Status_x0020_de_x0020_solicitud</ColumnID>
+                  </Source>
+                </KeyColumn>
+              </KeyColumns>
+            </Attribute>
+            <Attribute dwd:design-time-name="aeb29e7a-5f53-442f-9134-5b8c3697e664">
+              <AttributeID>Programa</AttributeID>
+              <KeyColumns>
+                <KeyColumn dwd:design-time-name="46598484-93e8-406e-9a7d-e029791717e6">
+                  <DataType>Integer</DataType>
+                  <Source xsi:type="ColumnBinding" dwd:design-time-name="448938cd-95ae-4fc4-a918-b482f8b4fcf4">
+                    <TableID>rrec_v_solicitudes</TableID>
+                    <ColumnID>Orden_nombre_programa</ColumnID>
+                  </Source>
+                </KeyColumn>
+              </KeyColumns>
+            </Attribute>
+            <Attribute dwd:design-time-name="c1302358-405f-484a-97e9-5450cb650402">
+              <AttributeID>Programa Alterno</AttributeID>
+              <KeyColumns>
+                <KeyColumn dwd:design-time-name="3da6c237-f1bd-46dd-96db-6e569087bff9">
+                  <DataType>Integer</DataType>
+                  <Source xsi:type="ColumnBinding" dwd:design-time-name="80f54918-1eaa-4f5a-a367-c2b26478a422">
+                    <TableID>rrec_v_solicitudes</TableID>
+                    <ColumnID>Orden_nombre_programa_alterno</ColumnID>
+                  </Source>
+                </KeyColumn>
+              </KeyColumns>
+            </Attribute>
+            <Attribute dwd:design-time-name="dce95359-32e2-4d99-88e5-540c10fd8546">
+              <AttributeID>Clave De La Decisión</AttributeID>
+              <KeyColumns>
+                <KeyColumn dwd:design-time-name="f02dd148-1b88-4394-a77c-e9745496105e">
+                  <DataType>WChar</DataType>
+                  <DataSize>3</DataSize>
+                  <Source xsi:type="ColumnBinding" dwd:design-time-name="6befd982-3b10-4b1b-b1fc-29cb77689419">
+                    <TableID>rrec_v_solicitudes</TableID>
+                    <ColumnID>Clave_x0020_de_x0020_la_x0020_decisión</ColumnID>
+                  </Source>
+                </KeyColumn>
+              </KeyColumns>
+            </Attribute>
+            <Attribute dwd:design-time-name="80307fa2-6dea-435a-9cfd-1be6f2e2f0f4">
+              <AttributeID>Tipo De Admisión</AttributeID>
+              <KeyColumns>
+                <KeyColumn dwd:design-time-name="a6699115-0141-442b-8eed-a3216dd53e0e">
+                  <DataType>Integer</DataType>
+                  <Source xsi:type="ColumnBinding" dwd:design-time-name="b2edd98d-1fde-484c-90ba-7561b1edd5e2">
+                    <TableID>rrec_v_solicitudes</TableID>
+                    <ColumnID>Orden_tipo_admisión</ColumnID>
+                  </Source>
+                </KeyColumn>
+              </KeyColumns>
+            </Attribute>
+            <Attribute dwd:design-time-name="916ca1ec-762e-4acb-8114-a04401f317aa">
+              <AttributeID>Clave Del Programa Alterno</AttributeID>
+              <KeyColumns>
+                <KeyColumn dwd:design-time-name="a195b49b-eede-442d-bf79-ce9e26b7960d">
+                  <DataType>WChar</DataType>
+                  <DataSize>32</DataSize>
+                  <Source xsi:type="ColumnBinding" dwd:design-time-name="4b461c5e-b906-4246-a61a-42e367b0e6b0">
+                    <TableID>rrec_v_solicitudes</TableID>
+                    <ColumnID>Clave_x0020_del_x0020_programa_x0020_alterno</ColumnID>
+                  </Source>
+                </KeyColumn>
+              </KeyColumns>
+            </Attribute>
+            <Attribute dwd:design-time-name="cab1952b-8227-4c9e-8c13-8ded86808376">
+              <AttributeID>Clave Del Tipo De Admisión</AttributeID>
+              <KeyColumns>
+                <KeyColumn dwd:design-time-name="bb381e2e-7e07-4e51-976c-c340cab222ca">
+                  <DataType>WChar</DataType>
+                  <DataSize>64</DataSize>
+                  <Source xsi:type="ColumnBinding" dwd:design-time-name="ed4894b7-2397-482e-9436-1f62fc4d11e5">
+                    <TableID>rrec_v_solicitudes</TableID>
+                    <ColumnID>Clave_x0020_del_x0020_tipo_x0020_de_x0020_admisión</ColumnID>
+                  </Source>
+                </KeyColumn>
+              </KeyColumns>
+            </Attribute>
+            <Attribute dwd:design-time-name="0808e81a-7f3b-405c-a29a-266d480bdb57">
+              <AttributeID>Decisión</AttributeID>
+              <KeyColumns>
+                <KeyColumn dwd:design-time-name="8cf22b53-b13b-4ab1-baa5-f9736a448a87">
+                  <DataType>WChar</DataType>
+                  <DataSize>30</DataSize>
+                  <Source xsi:type="ColumnBinding" dwd:design-time-name="8c31e24d-2475-480a-8537-fba7db32776f">
+                    <TableID>rrec_v_solicitudes</TableID>
+                    <ColumnID>Decisión</ColumnID>
+                  </Source>
+                </KeyColumn>
+              </KeyColumns>
+            </Attribute>
+            <Attribute dwd:design-time-name="f3a006d2-f0c1-4d22-a226-ac1894952a13">
+              <AttributeID>Nb Facultad</AttributeID>
+              <KeyColumns>
+                <KeyColumn dwd:design-time-name="143c2803-0fed-419b-a9f1-4173423c51d7">
+                  <DataType>WChar</DataType>
+                  <DataSize>64</DataSize>
+                  <Source xsi:type="ColumnBinding" dwd:design-time-name="b270beea-4cea-4d2d-82f3-1ab65c3494f0">
+                    <TableID>rrec_v_solicitudes</TableID>
+                    <ColumnID>nb_facultad</ColumnID>
+                  </Source>
+                </KeyColumn>
+              </KeyColumns>
+            </Attribute>
+            <Attribute dwd:design-time-name="f2adc61f-2c5f-48f3-9ed8-f539d9b0b22a">
+              <AttributeID>Fecha Solicitud</AttributeID>
+              <KeyColumns>
+                <KeyColumn dwd:design-time-name="5ebeda62-aa8c-424c-8c4e-50072ab0490d">
+                  <DataType>Date</DataType>
+                  <Source xsi:type="ColumnBinding" dwd:design-time-name="1f8e0c32-0512-417a-8a97-be2dc92e4a4f">
+                    <TableID>rrec_v_solicitudes</TableID>
+                    <ColumnID>fecha_solicitud</ColumnID>
+                  </Source>
+                </KeyColumn>
+              </KeyColumns>
+            </Attribute>
+          </Attributes>
+        </Dimension>
+        <Dimension xsi:type="RegularMeasureGroupDimension" dwd:design-time-name="b106b99c-f8d9-41c5-bce2-700cae6262be">
+          <CubeDimensionID>v Registros Estudiantiles</CubeDimensionID>
+          <Attributes>
+            <Attribute dwd:design-time-name="f2d158d6-ac7c-4926-b042-6ae6d8969f09">
+              <AttributeID>Id Registro Estudiantil</AttributeID>
+              <KeyColumns>
+                <KeyColumn dwd:design-time-name="c00394ce-2294-4492-a649-c31465409ca6">
+                  <DataType>Integer</DataType>
+                  <NullProcessing>UnknownMember</NullProcessing>
+                  <Source xsi:type="ColumnBinding" dwd:design-time-name="e842d8d5-a814-47e6-a8ac-446dda6c8272">
+                    <TableID>rrec_v_hechos_nuevos_ingresos</TableID>
+                    <ColumnID>id_registro_estudiantil</ColumnID>
+                  </Source>
+                </KeyColumn>
+              </KeyColumns>
+              <Type>Granularity</Type>
+            </Attribute>
+            <Attribute dwd:design-time-name="3b80f3fd-85cf-4c83-b741-96627609f221">
+              <AttributeID>Tipo De Alumno</AttributeID>
+              <KeyColumns>
+                <KeyColumn dwd:design-time-name="ba4c8886-22f7-475b-b5de-ea15c52f60d2">
+                  <DataType>WChar</DataType>
+                  <DataSize>64</DataSize>
+                  <Source xsi:type="ColumnBinding" dwd:design-time-name="21b19607-e990-4f4d-8507-837dd5041a80">
+                    <TableID>rrec_v_registros_estudiantiles</TableID>
+                    <ColumnID>Tipo_x0020_de_x0020_alumno</ColumnID>
+                  </Source>
+                </KeyColumn>
+              </KeyColumns>
+            </Attribute>
+            <Attribute dwd:design-time-name="1625ad22-2a20-4ebc-9e47-7d703976d04d">
+              <AttributeID>Clave De La Carrera</AttributeID>
+              <KeyColumns>
+                <KeyColumn dwd:design-time-name="ee638f59-1ff1-46d1-9e25-f1f58cf2ca0b">
+                  <DataType>WChar</DataType>
+                  <DataSize>64</DataSize>
+                  <Source xsi:type="ColumnBinding" dwd:design-time-name="5428f1a4-2b11-45b2-960c-dc8da75bbe78">
+                    <TableID>rrec_v_registros_estudiantiles</TableID>
+                    <ColumnID>Clave_x0020_de_x0020_la_x0020_carrera</ColumnID>
+                  </Source>
+                </KeyColumn>
+              </KeyColumns>
+            </Attribute>
+            <Attribute dwd:design-time-name="d19592ed-07d0-4775-b1a6-cd0bd7302c4e">
+              <AttributeID>Escuela</AttributeID>
+              <KeyColumns>
+                <KeyColumn dwd:design-time-name="6b87406e-ec4b-40b1-8310-c77722519cb3">
+                  <DataType>WChar</DataType>
+                  <DataSize>64</DataSize>
+                  <Source xsi:type="ColumnBinding" dwd:design-time-name="877c8f49-0eea-40e2-afaa-eb11f5eedd5e">
+                    <TableID>rrec_v_registros_estudiantiles</TableID>
+                    <ColumnID>Escuela</ColumnID>
+                  </Source>
+                </KeyColumn>
+              </KeyColumns>
+            </Attribute>
+            <Attribute dwd:design-time-name="115db047-4917-4b7c-8632-cc4f22db2b6e">
+              <AttributeID>Carrera</AttributeID>
+              <KeyColumns>
+                <KeyColumn dwd:design-time-name="7b9a546c-51c6-407d-8c62-8711de8cec6e">
+                  <DataType>Integer</DataType>
+                  <Source xsi:type="ColumnBinding" dwd:design-time-name="f79758e7-00e8-42fc-92b0-b211f18ec984">
+                    <TableID>rrec_v_registros_estudiantiles</TableID>
+                    <ColumnID>Orden_carrera</ColumnID>
+                  </Source>
+                </KeyColumn>
+              </KeyColumns>
+            </Attribute>
+            <Attribute dwd:design-time-name="abaaab83-ff81-4d39-8274-eb6eb3f26c1e">
+              <AttributeID>Clave Del Nivel Educativo</AttributeID>
+              <KeyColumns>
+                <KeyColumn dwd:design-time-name="e00ef283-1c2f-49e1-938c-5fb744115202">
+                  <DataType>WChar</DataType>
+                  <DataSize>64</DataSize>
+                  <Source xsi:type="ColumnBinding" dwd:design-time-name="8fe362c0-0938-4b26-81f7-0520a2509234">
+                    <TableID>rrec_v_registros_estudiantiles</TableID>
+                    <ColumnID>Clave_x0020_del_x0020_Nivel_x0020_Educativo</ColumnID>
+                  </Source>
+                </KeyColumn>
+              </KeyColumns>
+            </Attribute>
+            <Attribute dwd:design-time-name="e00154de-3a07-4504-b624-6191acb8637f">
+              <AttributeID>Programa Alterno</AttributeID>
+              <KeyColumns>
+                <KeyColumn dwd:design-time-name="3dfd67ec-7150-47f1-a187-24106651a155">
+                  <DataType>Integer</DataType>
+                  <Source xsi:type="ColumnBinding" dwd:design-time-name="3e3efdd1-5145-4ced-9165-b5683f80a13b">
+                    <TableID>rrec_v_registros_estudiantiles</TableID>
+                    <ColumnID>Orden_nombre_programa_alterno</ColumnID>
+                  </Source>
+                </KeyColumn>
+              </KeyColumns>
+            </Attribute>
+            <Attribute dwd:design-time-name="5ef4e182-9efa-4e98-9388-8e874864da4f">
+              <AttributeID>Tipo De Admisión</AttributeID>
+              <KeyColumns>
+                <KeyColumn dwd:design-time-name="f9a95e02-577f-4b85-94ad-b0ac486e76e1">
+                  <DataType>Integer</DataType>
+                  <Source xsi:type="ColumnBinding" dwd:design-time-name="44380640-b90b-46f5-a879-24b4b221b44e">
+                    <TableID>rrec_v_registros_estudiantiles</TableID>
+                    <ColumnID>Orden_tipo_admisión</ColumnID>
+                  </Source>
+                </KeyColumn>
+              </KeyColumns>
+            </Attribute>
+            <Attribute dwd:design-time-name="d3b8600e-896d-4ae3-b6db-bea6dc34a459">
+              <AttributeID>Nivel Educativo</AttributeID>
+              <KeyColumns>
+                <KeyColumn dwd:design-time-name="bdfe90f9-075e-4482-b520-a8a40eb9f67b">
+                  <DataType>Integer</DataType>
+                  <Source xsi:type="ColumnBinding" dwd:design-time-name="34878241-1ca2-44ad-a080-98d06ecf5f4c">
+                    <TableID>rrec_v_registros_estudiantiles</TableID>
+                    <ColumnID>Orden_nivel_educativo</ColumnID>
+                  </Source>
+                </KeyColumn>
+              </KeyColumns>
+            </Attribute>
+            <Attribute dwd:design-time-name="fb191971-7f87-4287-b7c4-df57e41de41d">
+              <AttributeID>Clave Del Grado Académico</AttributeID>
+              <KeyColumns>
+                <KeyColumn dwd:design-time-name="a8d12e5d-1ae5-4741-8b1c-2189ee24e1f7">
+                  <DataType>WChar</DataType>
+                  <DataSize>64</DataSize>
+                  <Source xsi:type="ColumnBinding" dwd:design-time-name="44b15d9f-e990-4653-ab58-a1d3246ed32e">
+                    <TableID>rrec_v_registros_estudiantiles</TableID>
+                    <ColumnID>Clave_x0020_del_x0020_Grado_x0020_Académico</ColumnID>
+                  </Source>
+                </KeyColumn>
+              </KeyColumns>
+            </Attribute>
+            <Attribute dwd:design-time-name="8ea27127-f3b9-46a4-b6b5-cb74822591c8">
+              <AttributeID>Grado Académico</AttributeID>
+              <KeyColumns>
+                <KeyColumn dwd:design-time-name="c8234425-9c83-4ebd-bd1e-5fd5595929e7">
+                  <DataType>WChar</DataType>
+                  <DataSize>64</DataSize>
+                  <Source xsi:type="ColumnBinding" dwd:design-time-name="8de348a1-b85d-4fe5-a2dc-5c6117478897">
+                    <TableID>rrec_v_registros_estudiantiles</TableID>
+                    <ColumnID>Grado_x0020_Académico</ColumnID>
+                  </Source>
+                </KeyColumn>
+              </KeyColumns>
+            </Attribute>
+            <Attribute dwd:design-time-name="e4f07d77-b2b6-436c-b610-9f422c4d6ad9">
+              <AttributeID>Clave Del Tipo De Admisión</AttributeID>
+              <KeyColumns>
+                <KeyColumn dwd:design-time-name="6be7c3dc-0404-432e-93eb-77b9a3cc4eca">
+                  <DataType>WChar</DataType>
+                  <DataSize>64</DataSize>
+                  <Source xsi:type="ColumnBinding" dwd:design-time-name="4af44554-1d77-4a06-9054-383c1fbf568d">
+                    <TableID>rrec_v_registros_estudiantiles</TableID>
+                    <ColumnID>Clave_x0020_del_x0020_tipo_x0020_de_x0020_admisión</ColumnID>
+                  </Source>
+                </KeyColumn>
+              </KeyColumns>
+            </Attribute>
+            <Attribute dwd:design-time-name="cfd7a4a2-8ca0-4c43-93a4-d07f449e1a89">
+              <AttributeID>Campus</AttributeID>
+              <KeyColumns>
+                <KeyColumn dwd:design-time-name="938c264b-bfab-458f-97c1-5fac4d3f7d86">
+                  <DataType>WChar</DataType>
+                  <DataSize>64</DataSize>
+                  <Source xsi:type="ColumnBinding" dwd:design-time-name="dcc9718d-16fd-463c-8faf-337d8e5dcb2d">
+                    <TableID>rrec_v_registros_estudiantiles</TableID>
+                    <ColumnID>Campus</ColumnID>
+                  </Source>
+                </KeyColumn>
+              </KeyColumns>
+            </Attribute>
+            <Attribute dwd:design-time-name="21515e4e-67e0-4a66-8200-db560f35234e">
+              <AttributeID>Código De La Escuela</AttributeID>
+              <KeyColumns>
+                <KeyColumn dwd:design-time-name="f0c9b761-7579-47a8-b1b5-239c5da3c6c3">
+                  <DataType>WChar</DataType>
+                  <DataSize>64</DataSize>
+                  <Source xsi:type="ColumnBinding" dwd:design-time-name="68a27124-64b3-4449-ad98-97e7eb5f5059">
+                    <TableID>rrec_v_registros_estudiantiles</TableID>
+                    <ColumnID>Código_x0020_de_x0020_la_x0020_escuela</ColumnID>
+                  </Source>
+                </KeyColumn>
+              </KeyColumns>
+            </Attribute>
+            <Attribute dwd:design-time-name="97879999-52e4-4438-9ec9-5b923a5cf120">
+              <AttributeID>Clave Del Programa Alterno</AttributeID>
+              <KeyColumns>
+                <KeyColumn dwd:design-time-name="a4e714e7-1f54-4459-a341-40880a675ca2">
+                  <DataType>Integer</DataType>
+                  <Source xsi:type="ColumnBinding" dwd:design-time-name="c1a30d86-cced-4ca8-b8a6-e1eacc5dcc72">
+                    <TableID>rrec_v_registros_estudiantiles</TableID>
+                    <ColumnID>orden_programa_alterno</ColumnID>
+                  </Source>
+                </KeyColumn>
+              </KeyColumns>
+            </Attribute>
+            <Attribute dwd:design-time-name="2d323538-eb85-4e73-b4f1-2b007d469400">
+              <AttributeID>Programa</AttributeID>
+              <KeyColumns>
+                <KeyColumn dwd:design-time-name="1dc4cb0e-99a7-4c05-9832-f6d01a3108c8">
+                  <DataType>Integer</DataType>
+                  <Source xsi:type="ColumnBinding" dwd:design-time-name="1c0b3b2c-e77e-43b7-872d-dacab9ec2fc9">
+                    <TableID>rrec_v_registros_estudiantiles</TableID>
+                    <ColumnID>Orden_nombre_programa</ColumnID>
+                  </Source>
+                </KeyColumn>
+              </KeyColumns>
+            </Attribute>
+            <Attribute dwd:design-time-name="18241c5d-07b0-4892-b046-eb628d66ea8c">
+              <AttributeID>Clave Del Programa</AttributeID>
+              <KeyColumns>
+                <KeyColumn dwd:design-time-name="d7a533d8-f38c-480e-9dad-61234af55343">
+                  <DataType>BigInt</DataType>
+                  <Source xsi:type="ColumnBinding" dwd:design-time-name="e63f0457-2689-4911-bb6c-79dba1c38ab1">
+                    <TableID>rrec_v_registros_estudiantiles</TableID>
+                    <ColumnID>Orden_programa</ColumnID>
+                  </Source>
+                </KeyColumn>
+              </KeyColumns>
+            </Attribute>
+            <Attribute dwd:design-time-name="0ac31d94-a40d-45d1-b56a-7e8ff06f148d">
+              <AttributeID>Clave Del Status Del Alumno</AttributeID>
+              <KeyColumns>
+                <KeyColumn dwd:design-time-name="1ec047c2-1d8e-4879-a208-dd790a5b4f10">
+                  <DataType>WChar</DataType>
+                  <DataSize>64</DataSize>
+                  <Source xsi:type="ColumnBinding" dwd:design-time-name="56d62ae3-8d94-48b5-99c8-a277e7dde636">
+                    <TableID>rrec_v_registros_estudiantiles</TableID>
+                    <ColumnID>Clave_x0020_del_x0020_status_x0020_del_x0020_alumno</ColumnID>
+                  </Source>
+                </KeyColumn>
+              </KeyColumns>
+            </Attribute>
+            <Attribute dwd:design-time-name="56aaf8bf-2bd7-4828-9e9b-2265b4235610">
+              <AttributeID>Clave Periodo Admision</AttributeID>
+              <KeyColumns>
+                <KeyColumn dwd:design-time-name="cf2bb319-4f72-4279-8ba7-9cd948cc7271">
+                  <DataType>WChar</DataType>
+                  <DataSize>6</DataSize>
+                  <Source xsi:type="ColumnBinding" dwd:design-time-name="765ba487-783f-4fc1-a8bd-6d269c4cf1bc">
+                    <TableID>rrec_v_registros_estudiantiles</TableID>
+                    <ColumnID>Clave_periodo_admision</ColumnID>
+                  </Source>
+                </KeyColumn>
+              </KeyColumns>
+            </Attribute>
+            <Attribute dwd:design-time-name="580beabf-76e7-477f-9e68-f74c3d4ec920">
+              <AttributeID>Status Del Alumno  Calculado</AttributeID>
+              <KeyColumns>
+                <KeyColumn dwd:design-time-name="ecded1af-a4c1-4696-9569-6629a3b561f3">
+                  <DataType>WChar</DataType>
+                  <DataSize>64</DataSize>
+                  <Source xsi:type="ColumnBinding" dwd:design-time-name="5deb7341-fcb9-4bdd-b3bc-57d6f21fb576">
+                    <TableID>rrec_v_registros_estudiantiles</TableID>
+                    <ColumnID>Status_x0020_del_x0020_alumno_x0020__x0028_Calculado_x0029_</ColumnID>
+                  </Source>
+                </KeyColumn>
+              </KeyColumns>
+            </Attribute>
+            <Attribute dwd:design-time-name="64eee88f-4a4f-46f8-a54c-2f08a2ca258e">
+              <AttributeID>Nb Facultad</AttributeID>
+              <KeyColumns>
+                <KeyColumn dwd:design-time-name="85be9c9e-2099-473f-95c5-df5bee096381">
+                  <DataType>WChar</DataType>
+                  <DataSize>64</DataSize>
+                  <Source xsi:type="ColumnBinding" dwd:design-time-name="9b992e73-2970-42e3-99c4-b509e49ddddd">
+                    <TableID>rrec_v_registros_estudiantiles</TableID>
+                    <ColumnID>nb_facultad</ColumnID>
+                  </Source>
+                </KeyColumn>
+              </KeyColumns>
+            </Attribute>
+            <Attribute dwd:design-time-name="bcad36ed-92ab-483a-8469-5e3d55658f19">
+              <AttributeID>Residencia</AttributeID>
+              <KeyColumns>
+                <KeyColumn dwd:design-time-name="67da173e-c262-4ba4-a129-ec754bdd1e31">
+                  <DataType>WChar</DataType>
+                  <DataSize>64</DataSize>
+                  <Source xsi:type="ColumnBinding" dwd:design-time-name="a6c49d3a-8a65-43f4-98cb-2651ecf8cf3a">
+                    <TableID>rrec_v_registros_estudiantiles</TableID>
+                    <ColumnID>Residencia</ColumnID>
+                  </Source>
+                </KeyColumn>
+              </KeyColumns>
+            </Attribute>
+            <Attribute dwd:design-time-name="45018577-5d78-4e3f-a6bd-1e33d24c94f3">
+              <AttributeID>Rate</AttributeID>
+              <KeyColumns>
+                <KeyColumn dwd:design-time-name="1567e66f-133c-422b-90a4-c98a9c643166">
+                  <DataType>WChar</DataType>
+                  <DataSize>64</DataSize>
+                  <Source xsi:type="ColumnBinding" dwd:design-time-name="4db86752-4bb7-4c6b-bb19-4504ffba7406">
+                    <TableID>rrec_v_registros_estudiantiles</TableID>
+                    <ColumnID>Rate</ColumnID>
+                  </Source>
+                </KeyColumn>
+              </KeyColumns>
+            </Attribute>
+            <Attribute dwd:design-time-name="d43da5f9-5f60-4c2a-b1ff-6f3ca71ed69c">
+              <AttributeID>Clave De La Residencia</AttributeID>
+              <KeyColumns>
+                <KeyColumn dwd:design-time-name="fbf7fc03-ab2a-46eb-a6cf-7f4a8fd4f32e">
+                  <DataType>WChar</DataType>
+                  <DataSize>64</DataSize>
+                  <Source xsi:type="ColumnBinding" dwd:design-time-name="adc9c673-3815-4de0-9a88-12e7c62a9934">
+                    <TableID>rrec_v_registros_estudiantiles</TableID>
+                    <ColumnID>Clave_x0020_de_x0020_la_x0020_residencia</ColumnID>
+                  </Source>
+                </KeyColumn>
+              </KeyColumns>
+            </Attribute>
+            <Attribute dwd:design-time-name="99abe85a-7921-415e-a1e6-a7db1a0675a5">
+              <AttributeID>Nivel</AttributeID>
+              <KeyColumns>
+                <KeyColumn dwd:design-time-name="78132bd3-86ae-4da8-a0d5-6fe70692ad69">
+                  <DataType>WChar</DataType>
+                  <DataSize>64</DataSize>
+                  <Source xsi:type="ColumnBinding" dwd:design-time-name="f17496b4-b951-4b01-b9c7-cdddbc98d25b">
+                    <TableID>rrec_v_registros_estudiantiles</TableID>
+                    <ColumnID>Nivel</ColumnID>
+                  </Source>
+                </KeyColumn>
+              </KeyColumns>
+            </Attribute>
+            <Attribute dwd:design-time-name="82e0f493-eda9-467f-9bf0-bc41ff564861">
+              <AttributeID>Status Del Alumno</AttributeID>
+              <KeyColumns>
+                <KeyColumn dwd:design-time-name="11d246ae-70a1-488d-b258-6936ba0bb7f4">
+                  <DataType>WChar</DataType>
+                  <DataSize>64</DataSize>
+                  <Source xsi:type="ColumnBinding" dwd:design-time-name="0a17c682-f708-4b6b-be24-111a8c7621cd">
+                    <TableID>rrec_v_registros_estudiantiles</TableID>
+                    <ColumnID>Status_x0020_del_x0020_alumno</ColumnID>
+                  </Source>
+                </KeyColumn>
+              </KeyColumns>
+            </Attribute>
+            <Attribute dwd:design-time-name="881ad365-d35f-47f7-b079-10b2ac6622d4">
+              <AttributeID>Clave Del Tipo De Alumno</AttributeID>
+              <KeyColumns>
+                <KeyColumn dwd:design-time-name="3b5b3c25-3f0b-400b-b1cd-9da8c297c6bb">
+                  <DataType>WChar</DataType>
+                  <DataSize>64</DataSize>
+                  <Source xsi:type="ColumnBinding" dwd:design-time-name="6663d2c1-a0f7-45d1-8429-ba141d3f24a8">
+                    <TableID>rrec_v_registros_estudiantiles</TableID>
+                    <ColumnID>Clave_x0020_del_x0020_tipo_x0020_de_x0020_alumno</ColumnID>
+                  </Source>
+                </KeyColumn>
+              </KeyColumns>
+            </Attribute>
+            <Attribute dwd:design-time-name="d65cfc15-5dec-4569-8dda-b219f0f7ceee">
+              <AttributeID>Clave Del Campus</AttributeID>
+              <KeyColumns>
+                <KeyColumn dwd:design-time-name="0ea50a7f-e9d9-445d-81c6-35855f565e4a">
+                  <DataType>WChar</DataType>
+                  <DataSize>64</DataSize>
+                  <Source xsi:type="ColumnBinding" dwd:design-time-name="cc9f3888-eaeb-4361-a932-8461f6c3512a">
+                    <TableID>rrec_v_registros_estudiantiles</TableID>
+                    <ColumnID>Clave_x0020_del_x0020_campus</ColumnID>
+                  </Source>
+                </KeyColumn>
+              </KeyColumns>
+            </Attribute>
+          </Attributes>
+        </Dimension>
+        <Dimension xsi:type="RegularMeasureGroupDimension" dwd:design-time-name="39a5c87b-dfc8-4001-960e-a2d5b5ebaca9">
+          <CubeDimensionID>v Personas</CubeDimensionID>
+          <Attributes>
+            <Attribute dwd:design-time-name="63584b2a-012a-4007-9bca-2623de1cde2f">
+              <AttributeID>Id Persona</AttributeID>
+              <KeyColumns>
+                <KeyColumn dwd:design-time-name="c260b251-cb87-4193-b724-d8eaa72c0d77">
+                  <DataType>Integer</DataType>
+                  <NullProcessing>UnknownMember</NullProcessing>
+                  <Source xsi:type="ColumnBinding" dwd:design-time-name="b04d682f-cee3-4871-8f15-211b573c0181">
+                    <TableID>rrec_v_hechos_nuevos_ingresos</TableID>
+                    <ColumnID>id_persona</ColumnID>
+                  </Source>
+                </KeyColumn>
+              </KeyColumns>
+              <Type>Granularity</Type>
+            </Attribute>
+            <Attribute dwd:design-time-name="4b6b1d41-22b1-4d4a-a69a-806456d08ee3">
+              <AttributeID>Clave Persona</AttributeID>
+              <KeyColumns>
+                <KeyColumn dwd:design-time-name="3fa128b0-99a0-4bae-ac5f-a254eada6055">
+                  <DataType>Integer</DataType>
+                  <Source xsi:type="ColumnBinding" dwd:design-time-name="1f83d974-1678-4100-ae95-9ede46806a2f">
+                    <TableID>rrec_v_personas</TableID>
+                    <ColumnID>clave_persona</ColumnID>
+                  </Source>
+                </KeyColumn>
+              </KeyColumns>
+            </Attribute>
+            <Attribute dwd:design-time-name="ad3c1f02-c977-4223-b269-2efbb3cff9f1">
+              <AttributeID>ID</AttributeID>
+              <KeyColumns>
+                <KeyColumn dwd:design-time-name="8d4edce1-6612-4a7d-a1e3-4874bfc033a7">
+                  <DataType>WChar</DataType>
+                  <DataSize>9</DataSize>
+                  <Source xsi:type="ColumnBinding" dwd:design-time-name="f7a5d32f-46ed-4673-85f9-5e35537f20e3">
+                    <TableID>rrec_v_personas</TableID>
+                    <ColumnID>ID</ColumnID>
+                  </Source>
+                </KeyColumn>
+              </KeyColumns>
+            </Attribute>
+            <Attribute dwd:design-time-name="6a727698-9968-47ce-b68b-1e1ade96859d">
+              <AttributeID>Apellidos</AttributeID>
+              <KeyColumns>
+                <KeyColumn dwd:design-time-name="cf854417-deff-423d-a83e-ed984b7487cf">
+                  <DataType>WChar</DataType>
+                  <DataSize>1024</DataSize>
+                  <Source xsi:type="ColumnBinding" dwd:design-time-name="e03872cc-9fed-44ba-ae1f-da66f137e7e0">
+                    <TableID>rrec_v_personas</TableID>
+                    <ColumnID>Apellidos</ColumnID>
+                  </Source>
+                </KeyColumn>
+              </KeyColumns>
+            </Attribute>
+            <Attribute dwd:design-time-name="c110bc3e-957a-4b32-99c5-51591b829abd">
+              <AttributeID>Nombre</AttributeID>
+              <KeyColumns>
+                <KeyColumn dwd:design-time-name="f151c6f8-c057-4240-a44d-7a930d7eb484">
+                  <DataType>WChar</DataType>
+                  <DataSize>60</DataSize>
+                  <Source xsi:type="ColumnBinding" dwd:design-time-name="6884d764-7924-4365-a300-3437887d3625">
+                    <TableID>rrec_v_personas</TableID>
+                    <ColumnID>Nombre</ColumnID>
+                  </Source>
+                </KeyColumn>
+              </KeyColumns>
+            </Attribute>
+            <Attribute dwd:design-time-name="00e5ce48-991c-4641-ab55-6ae251763f97">
+              <AttributeID>Nombre Del Alumno</AttributeID>
+              <KeyColumns>
+                <KeyColumn dwd:design-time-name="86910f8f-dcce-4b6b-beb3-e41f3bdfae0a">
+                  <DataType>WChar</DataType>
+                  <DataSize>1024</DataSize>
+                  <Source xsi:type="ColumnBinding" dwd:design-time-name="57fd60d3-8243-423c-9ebd-526bf82dd25e">
+                    <TableID>rrec_v_personas</TableID>
+                    <ColumnID>Nombre_x0020_del_x0020_alumno</ColumnID>
+                  </Source>
+                </KeyColumn>
+              </KeyColumns>
+            </Attribute>
+            <Attribute dwd:design-time-name="645bc6f0-b4a3-451e-81a8-214fd9aa3983">
+              <AttributeID>Sexo</AttributeID>
+              <KeyColumns>
+                <KeyColumn dwd:design-time-name="18570c2d-b34d-4ac3-9d0c-f63164534a71">
+                  <DataType>WChar</DataType>
+                  <DataSize>1024</DataSize>
+                  <Source xsi:type="ColumnBinding" dwd:design-time-name="832d31f3-560c-4462-8b3e-1ed018baf48b">
+                    <TableID>rrec_v_personas</TableID>
+                    <ColumnID>Sexo</ColumnID>
+                  </Source>
+                </KeyColumn>
+              </KeyColumns>
+            </Attribute>
+            <Attribute dwd:design-time-name="2e092df8-2a29-4572-918f-eab478a0c932">
+              <AttributeID>RUT</AttributeID>
+              <KeyColumns>
+                <KeyColumn dwd:design-time-name="9e84c65e-fe27-4464-bccd-3eb1ddde8686">
+                  <DataType>WChar</DataType>
+                  <DataSize>1024</DataSize>
+                  <Source xsi:type="ColumnBinding" dwd:design-time-name="add06946-e86a-4d0b-90e5-607a98b02d8d">
+                    <TableID>rrec_v_personas</TableID>
+                    <ColumnID>RUT</ColumnID>
+                  </Source>
+                </KeyColumn>
+              </KeyColumns>
+            </Attribute>
+            <Attribute dwd:design-time-name="b7a97ff6-70f3-4c43-85e5-81bd12e5bd59">
+              <AttributeID>Fecha De Nacimiento</AttributeID>
+              <KeyColumns>
+                <KeyColumn dwd:design-time-name="1d47f851-846a-4f9e-8655-bd1f10b5031d">
+                  <DataType>Date</DataType>
+                  <Source xsi:type="ColumnBinding" dwd:design-time-name="e5617617-7d2b-465f-baaf-dc9dcb856508">
+                    <TableID>rrec_v_personas</TableID>
+                    <ColumnID>Fecha_x0020_de_x0020_nacimiento</ColumnID>
+                  </Source>
+                </KeyColumn>
+              </KeyColumns>
+            </Attribute>
+          </Attributes>
+        </Dimension>
+        <Dimension xsi:type="RegularMeasureGroupDimension" dwd:design-time-name="cdeadd37-75bf-4a04-9cda-00e237974427">
+          <CubeDimensionID>v Programas</CubeDimensionID>
+          <Attributes>
+            <Attribute dwd:design-time-name="1692f0b3-77d0-43b1-acf0-e54a88cde049">
+              <AttributeID>Id Programa</AttributeID>
+              <KeyColumns>
+                <KeyColumn dwd:design-time-name="b3af341d-ec64-4c1a-9c3f-c547edad01f3">
+                  <DataType>Integer</DataType>
+                  <NullProcessing>UnknownMember</NullProcessing>
+                  <Source xsi:type="ColumnBinding" dwd:design-time-name="1b8c4801-6f30-42c2-946d-7020b4f4c328">
+                    <TableID>rrec_v_hechos_nuevos_ingresos</TableID>
+                    <ColumnID>id_programa</ColumnID>
+                  </Source>
+                </KeyColumn>
+              </KeyColumns>
+              <Type>Granularity</Type>
+            </Attribute>
+            <Attribute dwd:design-time-name="26f894f7-b68a-4142-adc4-0013d2ad099d">
+              <AttributeID>Nb Clave Programa</AttributeID>
+              <KeyColumns>
+                <KeyColumn dwd:design-time-name="bf93633b-ea43-442d-8974-d309f1a04dbd">
+                  <DataType>BigInt</DataType>
+                  <Source xsi:type="ColumnBinding" dwd:design-time-name="376dacee-699e-4da9-b007-0addd1b58188">
+                    <TableID>rrec_v_programas</TableID>
+                    <ColumnID>no_orden_clave_programa</ColumnID>
+                  </Source>
+                </KeyColumn>
+              </KeyColumns>
+            </Attribute>
+            <Attribute dwd:design-time-name="a61a8aac-f0d6-4667-8f4b-75d4c0046a60">
+              <AttributeID>Nb Programa</AttributeID>
+              <KeyColumns>
+                <KeyColumn dwd:design-time-name="e5f546af-667e-4c21-a63f-201a33bc859b">
+                  <DataType>Integer</DataType>
+                  <Source xsi:type="ColumnBinding" dwd:design-time-name="cfb774c8-6a2a-43af-8852-ba1e1d27bd13">
+                    <TableID>rrec_v_programas</TableID>
+                    <ColumnID>no_orden_programa</ColumnID>
+                  </Source>
+                </KeyColumn>
+              </KeyColumns>
+            </Attribute>
+            <Attribute dwd:design-time-name="c435caec-b01a-4a10-b05d-8c99378f627b">
+              <AttributeID>Nb Clave Programa Alterno</AttributeID>
+              <KeyColumns>
+                <KeyColumn dwd:design-time-name="1d8860b3-aa2e-4d9f-9d80-3f6755416aa5">
+                  <DataType>Integer</DataType>
+                  <Source xsi:type="ColumnBinding" dwd:design-time-name="db5535fb-c8b8-439c-97cc-f33de951228f">
+                    <TableID>rrec_v_programas</TableID>
+                    <ColumnID>no_orden_clave_programa_alterno</ColumnID>
+                  </Source>
+                </KeyColumn>
+              </KeyColumns>
+            </Attribute>
+            <Attribute dwd:design-time-name="d75582d0-dfd8-42ea-bc94-d90477c6d72e">
+              <AttributeID>Nb Programa Alterno</AttributeID>
+              <KeyColumns>
+                <KeyColumn dwd:design-time-name="d133d5ca-26ea-43a6-9b01-ffcadcf11b09">
+                  <DataType>Integer</DataType>
+                  <Source xsi:type="ColumnBinding" dwd:design-time-name="65357310-96e5-4c87-a47d-b4dfc9fa61fd">
+                    <TableID>rrec_v_programas</TableID>
+                    <ColumnID>no_orden_programa_alterno</ColumnID>
+                  </Source>
+                </KeyColumn>
+              </KeyColumns>
+            </Attribute>
+            <Attribute dwd:design-time-name="ba57d26b-81c9-43e5-8972-e7040788a119">
+              <AttributeID>Nb Facultad</AttributeID>
+              <KeyColumns>
+                <KeyColumn dwd:design-time-name="5bd1b8f7-ffcd-422d-aefb-2a89b9057aa7">
+                  <DataType>WChar</DataType>
+                  <DataSize>64</DataSize>
+                  <Source xsi:type="ColumnBinding" dwd:design-time-name="bb73ef42-85bf-4038-a52d-b1b7c31048c8">
+                    <TableID>rrec_v_programas</TableID>
+                    <ColumnID>nb_facultad</ColumnID>
+                  </Source>
+                </KeyColumn>
+              </KeyColumns>
+            </Attribute>
+          </Attributes>
+        </Dimension>
+        <Dimension xsi:type="RegularMeasureGroupDimension" dwd:design-time-name="c4768596-29b8-4859-9399-80e14955ad97">
+          <CubeDimensionID>v Via Admision</CubeDimensionID>
+          <Attributes>
+            <Attribute dwd:design-time-name="1ce77b2a-0fe0-447d-b138-3dc875e2c303">
+              <AttributeID>Id Via Admision</AttributeID>
+              <KeyColumns>
+                <KeyColumn dwd:design-time-name="34c9fa34-c14d-4f62-8d2c-d899e0431d48">
+                  <DataType>Integer</DataType>
+                  <NullProcessing>UnknownMember</NullProcessing>
+                  <Source xsi:type="ColumnBinding" dwd:design-time-name="091f0f18-6e69-4b79-8a64-5206509177f1">
+                    <TableID>rrec_v_hechos_nuevos_ingresos</TableID>
+                    <ColumnID>id_via_admision</ColumnID>
+                  </Source>
+                </KeyColumn>
+              </KeyColumns>
+              <Type>Granularity</Type>
+            </Attribute>
+            <Attribute dwd:design-time-name="baa386ed-f7d2-4ff9-8865-e44331c3a421">
+              <AttributeID>Clave De La Vía De Admisión</AttributeID>
+              <KeyColumns>
+                <KeyColumn dwd:design-time-name="b6cd8a6b-0233-4528-b9eb-16291bcc6347">
+                  <DataType>WChar</DataType>
+                  <DataSize>32</DataSize>
+                  <Source xsi:type="ColumnBinding" dwd:design-time-name="b4e59c63-2722-4c4f-9789-62d1ebebfd03">
+                    <TableID>rrec_v_via_admision</TableID>
+                    <ColumnID>Clave_x0020_de_x0020_la_x0020_vía_x0020_de_x0020_admisión</ColumnID>
+                  </Source>
+                </KeyColumn>
+              </KeyColumns>
+            </Attribute>
+            <Attribute dwd:design-time-name="46227b22-9a80-49b6-a896-734c37927885">
+              <AttributeID>Vía De Admisión</AttributeID>
+              <KeyColumns>
+                <KeyColumn dwd:design-time-name="060cb738-f9e8-4582-9939-5bbaedc0dac1">
+                  <DataType>WChar</DataType>
+                  <DataSize>64</DataSize>
+                  <Source xsi:type="ColumnBinding" dwd:design-time-name="5c5f839f-98e1-4b66-b0d0-8882d21a214f">
+                    <TableID>rrec_v_via_admision</TableID>
+                    <ColumnID>Vía_x0020_de_x0020_admisión</ColumnID>
+                  </Source>
+                </KeyColumn>
+              </KeyColumns>
+            </Attribute>
+          </Attributes>
+        </Dimension>
+        <Dimension xsi:type="RegularMeasureGroupDimension" dwd:design-time-name="42a80f3e-a8af-49e5-8dbe-b2da9f9f625d">
+          <CubeDimensionID>Dias Horas Monitoreo</CubeDimensionID>
+          <Attributes>
+            <Attribute dwd:design-time-name="c0c7a83c-a02f-4f51-ac5f-1b89169106a3">
+              <AttributeID>Id Dia Hora Monitoreo</AttributeID>
+              <KeyColumns>
+                <KeyColumn dwd:design-time-name="6cd36101-7f41-4727-9643-4adbedb9f83b">
+                  <DataType>Integer</DataType>
+                  <NullProcessing>UnknownMember</NullProcessing>
+                  <Source xsi:type="ColumnBinding" dwd:design-time-name="3c882e9c-597f-4afd-996b-67325f58365a">
+                    <TableID>rrec_v_hechos_nuevos_ingresos</TableID>
+                    <ColumnID>id_dia_hora_monitoreo</ColumnID>
+                  </Source>
+                </KeyColumn>
+              </KeyColumns>
+              <Type>Granularity</Type>
+            </Attribute>
+            <Attribute dwd:design-time-name="56801186-4735-48c2-9942-dda7cf33d85b">
+              <AttributeID>No Hora Ejecucion</AttributeID>
+              <KeyColumns>
+                <KeyColumn dwd:design-time-name="43cf2ffd-fec9-4370-b170-7f0a8660a2f4">
+                  <DataType>WChar</DataType>
+                  <DataSize>6</DataSize>
+                  <Source xsi:type="ColumnBinding" dwd:design-time-name="d9a49876-99cf-47d7-917d-96b4331ab178">
+                    <TableID>rrec_v_dias_horas_monitoreo</TableID>
+                    <ColumnID>Periodo</ColumnID>
+                  </Source>
+                </KeyColumn>
+                <KeyColumn dwd:design-time-name="9492acbe-dc97-467d-9585-ffe2c7ff3ac0">
+                  <DataType>Integer</DataType>
+                  <Source xsi:type="ColumnBinding" dwd:design-time-name="2599fce5-dde2-4605-8872-cf855c86e99b">
+                    <TableID>rrec_v_dias_horas_monitoreo</TableID>
+                    <ColumnID>no_dia_ejecucion</ColumnID>
+                  </Source>
+                </KeyColumn>
+                <KeyColumn dwd:design-time-name="c37b2868-c2f1-4bca-8fa6-f8a22d42c701">
+                  <DataType>Integer</DataType>
+                  <Source xsi:type="ColumnBinding" dwd:design-time-name="77e07449-7d2d-4dd1-a322-ef9b81a525e3">
+                    <TableID>rrec_v_dias_horas_monitoreo</TableID>
+                    <ColumnID>no_hora_ejecucion</ColumnID>
+                  </Source>
+                </KeyColumn>
+              </KeyColumns>
+            </Attribute>
+            <Attribute dwd:design-time-name="d178dae7-16fd-4765-8f47-a15cb1adb978">
+              <AttributeID>Fecha</AttributeID>
+              <KeyColumns>
+                <KeyColumn dwd:design-time-name="34380b1b-662d-4572-bcad-ed6ee05f2e37">
+                  <DataType>Integer</DataType>
+                  <Source xsi:type="ColumnBinding" dwd:design-time-name="3a1cc6ce-9051-4503-afb2-503d95e7c652">
+                    <TableID>rrec_v_dias_horas_monitoreo</TableID>
+                    <ColumnID>Fecha</ColumnID>
+                  </Source>
+                </KeyColumn>
+              </KeyColumns>
+            </Attribute>
+            <Attribute dwd:design-time-name="5d6a52c2-a15d-4b61-adf6-237674dadc8a">
+              <AttributeID>Hora Monitoreo</AttributeID>
+              <KeyColumns>
+                <KeyColumn dwd:design-time-name="32a88f58-9d44-4f39-88be-3c52614b6b48">
+                  <DataType>WChar</DataType>
+                  <DataSize>6</DataSize>
+                  <Source xsi:type="ColumnBinding" dwd:design-time-name="0c677432-222e-47d8-bf2b-34ef12a36d2d">
+                    <TableID>rrec_v_dias_horas_monitoreo</TableID>
+                    <ColumnID>Hora_x0020_monitoreo</ColumnID>
+                  </Source>
+                </KeyColumn>
+              </KeyColumns>
+            </Attribute>
+            <Attribute dwd:design-time-name="6b9a9024-0cfc-4039-83c6-421b9bc60493">
+              <AttributeID>Periodo</AttributeID>
+              <KeyColumns>
+                <KeyColumn dwd:design-time-name="55b9241c-423d-4cc5-bd8c-2c7f3c18b989">
+                  <DataType>WChar</DataType>
+                  <DataSize>6</DataSize>
+                  <Source xsi:type="ColumnBinding" dwd:design-time-name="809ccce3-1c9a-465b-8dba-e89596c13b4f">
+                    <TableID>rrec_v_dias_horas_monitoreo</TableID>
+                    <ColumnID>Periodo</ColumnID>
+                  </Source>
+                </KeyColumn>
+              </KeyColumns>
+            </Attribute>
+            <Attribute dwd:design-time-name="a1b20501-de94-4978-9541-9868f8e676ee">
+              <AttributeID>No Dia Ejecucion</AttributeID>
+              <KeyColumns>
+                <KeyColumn dwd:design-time-name="c5adc05d-d5c4-458c-8b4b-8ebbf15e5786">
+                  <DataType>WChar</DataType>
+                  <DataSize>6</DataSize>
+                  <Source xsi:type="ColumnBinding" dwd:design-time-name="ea9ec458-7500-4b1b-8524-40a2dc2c6022">
+                    <TableID>rrec_v_dias_horas_monitoreo</TableID>
+                    <ColumnID>Periodo</ColumnID>
+                  </Source>
+                </KeyColumn>
+                <KeyColumn dwd:design-time-name="88d17c62-051d-4677-8d29-2f596fbe5cb5">
+                  <DataType>Integer</DataType>
+                  <Source xsi:type="ColumnBinding" dwd:design-time-name="8d91c718-3eba-4607-83ca-d338651f530b">
+                    <TableID>rrec_v_dias_horas_monitoreo</TableID>
+                    <ColumnID>no_dia_ejecucion</ColumnID>
+                  </Source>
+                </KeyColumn>
+              </KeyColumns>
+            </Attribute>
+            <Attribute dwd:design-time-name="12013cf8-d3c8-4c26-832c-c6f8128de271">
+              <AttributeID>No Dia Ejecucion 1</AttributeID>
+              <KeyColumns>
+                <KeyColumn dwd:design-time-name="8325504e-78ad-43ee-b2e3-fd4b823f9229">
+                  <DataType>Integer</DataType>
+                  <Source xsi:type="ColumnBinding" dwd:design-time-name="2e40562a-cc06-4d83-8563-5c426c5c6f18">
+                    <TableID>rrec_v_dias_horas_monitoreo</TableID>
+                    <ColumnID>no_dia_ejecucion</ColumnID>
+                  </Source>
+                </KeyColumn>
+              </KeyColumns>
+            </Attribute>
+          </Attributes>
+        </Dimension>
+        <Dimension xsi:type="RegularMeasureGroupDimension" dwd:design-time-name="2847d7c4-9fa4-4822-ac01-aa193680b759">
+          <CubeDimensionID>Fechas Ultima Actualizacion</CubeDimensionID>
+          <Attributes>
+            <Attribute dwd:design-time-name="10658eea-d173-40b3-ba82-379c9b008448">
+              <AttributeID>Id Fecha Ultima Actualizacion</AttributeID>
+              <KeyColumns>
+                <KeyColumn dwd:design-time-name="dbfd68dc-8eaf-4dce-8dea-76239e9158b1">
+                  <DataType>Integer</DataType>
+                  <Source xsi:type="ColumnBinding" dwd:design-time-name="c5e82bd0-07b3-4e15-8993-46d454c57c33">
+                    <TableID>rrec_v_hechos_nuevos_ingresos</TableID>
+                    <ColumnID>id_fecha_ultima_actualizacion</ColumnID>
+                  </Source>
+                </KeyColumn>
+              </KeyColumns>
+              <Type>Granularity</Type>
+            </Attribute>
+            <Attribute dwd:design-time-name="cb5d582c-6266-4ad7-87b7-33f3d1078568">
+              <AttributeID>Fecha Ultima Actualizacion</AttributeID>
+              <KeyColumns>
+                <KeyColumn dwd:design-time-name="ee9d8a3f-479f-485a-b141-3055b68f4d8b">
+                  <DataType>WChar</DataType>
+                  <DataSize>64</DataSize>
+                  <Source xsi:type="ColumnBinding" dwd:design-time-name="b8c3501e-60cd-466b-b9ec-79dabf57280a">
+                    <TableID>rrec_v_fechas_ultima_actualizacion</TableID>
+                    <ColumnID>fecha_ultima_actualizacion</ColumnID>
+                  </Source>
+                </KeyColumn>
+              </KeyColumns>
+            </Attribute>
+          </Attributes>
+        </Dimension>
+      </Dimensions>
+      <Partitions />
+      <ProactiveCaching dwd:design-time-name="23d0d594-db46-4b3f-bfbf-bf358103bdea">
+        <SilenceInterval>-PT1S</SilenceInterval>
+        <Latency>-PT1S</Latency>
+        <SilenceOverrideInterval>-PT1S</SilenceOverrideInterval>
+        <ForceRebuildInterval>-PT1S</ForceRebuildInterval>
+        <Source xsi:type="ProactiveCachingInheritedBinding" dwd:design-time-name="fa772e3a-4f24-4be6-914f-1c66ad7ead59" />
+      </ProactiveCaching>
+    </MeasureGroup>
+    <MeasureGroup dwd:design-time-name="553ea927-c828-4603-8812-0c1d7e1077d4">
+      <ID>v Hechos Metas</ID>
+      <Name>v Hechos Metas</Name>
+      <CreatedTimestamp>2020-01-10T20:25:07.346667Z</CreatedTimestamp>
+      <LastSchemaUpdate>2022-08-25T22:18:45.853333Z</LastSchemaUpdate>
+      <LastProcessed>2023-02-07T23:34:07.21Z</LastProcessed>
+      <State>Processed</State>
+      <Translations>
+        <Translation dwd:design-time-name="c20ffb03-9886-442b-aa21-359201cadbae">
+          <Language>1033</Language>
+          <Caption>Hechos Metas</Caption>
+        </Translation>
+        <Translation dwd:design-time-name="4e3df159-fcf7-441a-906e-9f29cb0c2f60">
+          <Language>2058</Language>
+          <Caption>Hechos Metas</Caption>
+        </Translation>
+      </Translations>
+      <Measures>
+        <Measure dwd:design-time-name="c598446b-c4ea-4c3c-8fe1-a436071b9627">
+          <ID>Meta</ID>
+          <Name>Meta</Name>
+          <AggregateFunction>LastNonEmpty</AggregateFunction>
+          <DataType>Integer</DataType>
+          <Source dwd:design-time-name="f9ac171f-9233-487f-95ea-9791d32f6b25">
+            <DataType>Integer</DataType>
+            <NullProcessing>Preserve</NullProcessing>
+            <Source xsi:type="ColumnBinding" dwd:design-time-name="e0722d9f-b996-491e-b87c-dbb9e17c1351">
+              <TableID>rrec_v_hechos_metas</TableID>
+              <ColumnID>Meta</ColumnID>
+            </Source>
+          </Source>
+        </Measure>
+        <Measure dwd:design-time-name="4e271c38-9c9a-4c78-809b-e616bdd6c692">
+          <ID>v Hechos Metas Count</ID>
+          <Name>Contador metas</Name>
+          <AggregateFunction>Count</AggregateFunction>
+          <DataType>Integer</DataType>
+          <Source dwd:design-time-name="75a40ffb-1018-4540-a649-e782186a1629">
+            <DataType>Integer</DataType>
+            <DataSize>4</DataSize>
+            <Source xsi:type="RowBinding" dwd:design-time-name="929f1ccc-2efe-48a3-9dff-51dc9ae1a15b">
+              <TableID>rrec_v_hechos_metas</TableID>
+            </Source>
+          </Source>
+          <Translations>
+            <Translation dwd:design-time-name="192c6765-b648-4a3b-8dd8-74b76b1edf79">
+              <Language>2058</Language>
+              <Caption>Contador Registros</Caption>
+            </Translation>
+            <Translation dwd:design-time-name="0f7b6ba7-2fbe-4b7f-a851-332161b60b9e">
+              <Language>1033</Language>
+              <Caption>Contador Registros</Caption>
+            </Translation>
+          </Translations>
+        </Measure>
+      </Measures>
+      <StorageMode>Molap</StorageMode>
+      <EstimatedSize>371590</EstimatedSize>
+      <ProcessingMode>Regular</ProcessingMode>
+      <Dimensions>
+        <Dimension xsi:type="RegularMeasureGroupDimension" dwd:design-time-name="5be71fb9-e2bc-4699-95d7-fff5cffaf9e2">
+          <CubeDimensionID>Dias Horas Monitoreo</CubeDimensionID>
+          <Attributes>
+            <Attribute dwd:design-time-name="b76dee66-204c-42e1-a069-81210ab9b18c">
+              <AttributeID>Id Dia Hora Monitoreo</AttributeID>
+              <KeyColumns>
+                <KeyColumn dwd:design-time-name="98e49ccc-b3f9-4c09-820a-026839375846">
+                  <DataType>Integer</DataType>
+                  <Source xsi:type="ColumnBinding" dwd:design-time-name="4befce11-a5a4-42aa-88f2-8191d8107448">
+                    <TableID>rrec_v_hechos_metas</TableID>
+                    <ColumnID>id_dia_hora_monitoreo</ColumnID>
+                  </Source>
+                </KeyColumn>
+              </KeyColumns>
+              <Type>Granularity</Type>
+            </Attribute>
+            <Attribute dwd:design-time-name="f2c322fd-5690-44cc-b61e-6820e7e99867">
+              <AttributeID>No Hora Ejecucion</AttributeID>
+              <KeyColumns>
+                <KeyColumn dwd:design-time-name="76421346-5640-4606-97eb-b99dd94996cd">
+                  <DataType>WChar</DataType>
+                  <DataSize>6</DataSize>
+                  <Source xsi:type="ColumnBinding" dwd:design-time-name="1e95cd01-c162-44a6-805e-35cc113fba4d">
+                    <TableID>rrec_v_dias_horas_monitoreo</TableID>
+                    <ColumnID>Periodo</ColumnID>
+                  </Source>
+                </KeyColumn>
+                <KeyColumn dwd:design-time-name="3b32a76e-2d97-4ade-a453-68208ab8df9e">
+                  <DataType>Integer</DataType>
+                  <Source xsi:type="ColumnBinding" dwd:design-time-name="e15d5070-5261-4ea5-935b-0adb55b7e353">
+                    <TableID>rrec_v_dias_horas_monitoreo</TableID>
+                    <ColumnID>no_dia_ejecucion</ColumnID>
+                  </Source>
+                </KeyColumn>
+                <KeyColumn dwd:design-time-name="67386e36-6903-4afe-8777-0e45e4a8dbce">
+                  <DataType>Integer</DataType>
+                  <Source xsi:type="ColumnBinding" dwd:design-time-name="86ade245-bf8d-4f4f-8ece-66a26236a97e">
+                    <TableID>rrec_v_dias_horas_monitoreo</TableID>
+                    <ColumnID>no_hora_ejecucion</ColumnID>
+                  </Source>
+                </KeyColumn>
+              </KeyColumns>
+            </Attribute>
+            <Attribute dwd:design-time-name="a8bb70d1-9dc2-40ac-9dcb-a711fcb00305">
+              <AttributeID>Fecha</AttributeID>
+              <KeyColumns>
+                <KeyColumn dwd:design-time-name="c9e58aac-6daa-49ab-be41-06cbdd30e6e3">
+                  <DataType>Integer</DataType>
+                  <Source xsi:type="ColumnBinding" dwd:design-time-name="09fbf3f0-fcad-43c9-bee2-e0dd7c903242">
+                    <TableID>rrec_v_dias_horas_monitoreo</TableID>
+                    <ColumnID>Fecha</ColumnID>
+                  </Source>
+                </KeyColumn>
+              </KeyColumns>
+            </Attribute>
+            <Attribute dwd:design-time-name="60b041af-ed99-43a3-a633-b61bcd1885e6">
+              <AttributeID>Hora Monitoreo</AttributeID>
+              <KeyColumns>
+                <KeyColumn dwd:design-time-name="0a848eb9-3c35-4150-ba5b-2ca26f617713">
+                  <DataType>WChar</DataType>
+                  <DataSize>6</DataSize>
+                  <Source xsi:type="ColumnBinding" dwd:design-time-name="9602a5bc-5827-42dd-8576-278f1ad81863">
+                    <TableID>rrec_v_dias_horas_monitoreo</TableID>
+                    <ColumnID>Hora_x0020_monitoreo</ColumnID>
+                  </Source>
+                </KeyColumn>
+              </KeyColumns>
+            </Attribute>
+            <Attribute dwd:design-time-name="ceb4d671-f790-495f-a924-a5b335b34a56">
+              <AttributeID>Periodo</AttributeID>
+              <KeyColumns>
+                <KeyColumn dwd:design-time-name="668d52d8-287d-45df-a2fa-61b572806b55">
+                  <DataType>WChar</DataType>
+                  <DataSize>6</DataSize>
+                  <Source xsi:type="ColumnBinding" dwd:design-time-name="37ecafdc-926a-4389-9921-062bd71476bd">
+                    <TableID>rrec_v_dias_horas_monitoreo</TableID>
+                    <ColumnID>Periodo</ColumnID>
+                  </Source>
+                </KeyColumn>
+              </KeyColumns>
+            </Attribute>
+            <Attribute dwd:design-time-name="4560d04d-c603-40be-9708-262d7a4f6f03">
+              <AttributeID>No Dia Ejecucion</AttributeID>
+              <KeyColumns>
+                <KeyColumn dwd:design-time-name="12fe93a8-d648-4345-b0f8-80f44091a0a9">
+                  <DataType>WChar</DataType>
+                  <DataSize>6</DataSize>
+                  <Source xsi:type="ColumnBinding" dwd:design-time-name="96a6bb78-c48a-4bb1-84cb-8bd6ffced98a">
+                    <TableID>rrec_v_dias_horas_monitoreo</TableID>
+                    <ColumnID>Periodo</ColumnID>
+                  </Source>
+                </KeyColumn>
+                <KeyColumn dwd:design-time-name="b9a43e36-f083-459a-80cd-ede993622db0">
+                  <DataType>Integer</DataType>
+                  <Source xsi:type="ColumnBinding" dwd:design-time-name="121cb23d-7361-49c7-a5ec-b739cd5c1576">
+                    <TableID>rrec_v_dias_horas_monitoreo</TableID>
+                    <ColumnID>no_dia_ejecucion</ColumnID>
+                  </Source>
+                </KeyColumn>
+              </KeyColumns>
+            </Attribute>
+            <Attribute dwd:design-time-name="556afa61-7ac9-4901-9ed2-7a475f1a3999">
+              <AttributeID>No Dia Ejecucion 1</AttributeID>
+              <KeyColumns>
+                <KeyColumn dwd:design-time-name="3657827c-35fe-4351-ad85-cf3e0f2ada6b">
+                  <DataType>Integer</DataType>
+                  <Source xsi:type="ColumnBinding" dwd:design-time-name="58c83f59-dfaa-4e15-a402-790cb56494f8">
+                    <TableID>rrec_v_dias_horas_monitoreo</TableID>
+                    <ColumnID>no_dia_ejecucion</ColumnID>
+                  </Source>
+                </KeyColumn>
+              </KeyColumns>
+            </Attribute>
+          </Attributes>
+        </Dimension>
+        <Dimension xsi:type="RegularMeasureGroupDimension" dwd:design-time-name="334927a8-afe5-46c0-8fbc-00f40354c7c8">
+          <CubeDimensionID>v Programas</CubeDimensionID>
+          <Attributes>
+            <Attribute dwd:design-time-name="38143bbd-b6cf-433d-99b0-e6e089aba6f8">
+              <AttributeID>Id Programa</AttributeID>
+              <KeyColumns>
+                <KeyColumn dwd:design-time-name="a6ac43c7-978d-49c6-86bf-6a7de4eb77ac">
+                  <DataType>Integer</DataType>
+                  <NullProcessing>UnknownMember</NullProcessing>
+                  <Source xsi:type="ColumnBinding" dwd:design-time-name="9ab3841e-dc06-4bbd-abe6-9f5303e41a46">
+                    <TableID>rrec_v_hechos_metas</TableID>
+                    <ColumnID>id_programa</ColumnID>
+                  </Source>
+                </KeyColumn>
+              </KeyColumns>
+              <Type>Granularity</Type>
+            </Attribute>
+            <Attribute dwd:design-time-name="0c14a7e3-d70f-43f7-a272-1b4533468675">
+              <AttributeID>Nb Clave Programa</AttributeID>
+              <KeyColumns>
+                <KeyColumn dwd:design-time-name="0664745f-c771-4597-8e66-f3e60eb6e649">
+                  <DataType>BigInt</DataType>
+                  <Source xsi:type="ColumnBinding" dwd:design-time-name="90b12540-40d5-4eae-a0a7-0d6a51c889cc">
+                    <TableID>rrec_v_programas</TableID>
+                    <ColumnID>no_orden_clave_programa</ColumnID>
+                  </Source>
+                </KeyColumn>
+              </KeyColumns>
+            </Attribute>
+            <Attribute dwd:design-time-name="32f55253-2ffb-47f4-8001-f47223f04db5">
+              <AttributeID>Nb Programa</AttributeID>
+              <KeyColumns>
+                <KeyColumn dwd:design-time-name="d2fe6cd7-bf07-41d8-99bb-3ee2713ee7ec">
+                  <DataType>Integer</DataType>
+                  <Source xsi:type="ColumnBinding" dwd:design-time-name="f557530a-6c70-4737-8cf9-e8c21a020a81">
+                    <TableID>rrec_v_programas</TableID>
+                    <ColumnID>no_orden_programa</ColumnID>
+                  </Source>
+                </KeyColumn>
+              </KeyColumns>
+            </Attribute>
+            <Attribute dwd:design-time-name="92466653-47d1-4cd1-ad4d-9780c1412419">
+              <AttributeID>Nb Clave Programa Alterno</AttributeID>
+              <KeyColumns>
+                <KeyColumn dwd:design-time-name="4a6aab03-f3c8-4e59-8020-19f7ee74652c">
+                  <DataType>Integer</DataType>
+                  <Source xsi:type="ColumnBinding" dwd:design-time-name="885a22d0-fa34-4d8c-aec1-62d7af263b8d">
+                    <TableID>rrec_v_programas</TableID>
+                    <ColumnID>no_orden_clave_programa_alterno</ColumnID>
+                  </Source>
+                </KeyColumn>
+              </KeyColumns>
+            </Attribute>
+            <Attribute dwd:design-time-name="a833f7d5-e08d-42a0-91bb-6d05e5fa7acf">
+              <AttributeID>Nb Programa Alterno</AttributeID>
+              <KeyColumns>
+                <KeyColumn dwd:design-time-name="c8c8238d-54d0-43ac-8e3d-c31f0285bd41">
+                  <DataType>Integer</DataType>
+                  <Source xsi:type="ColumnBinding" dwd:design-time-name="f7803250-0519-4251-af73-e8c53fc85276">
+                    <TableID>rrec_v_programas</TableID>
+                    <ColumnID>no_orden_programa_alterno</ColumnID>
+                  </Source>
+                </KeyColumn>
+              </KeyColumns>
+            </Attribute>
+            <Attribute dwd:design-time-name="35ac2fe8-c1ad-44d7-88d4-63bd695a6ed4">
+              <AttributeID>Nb Facultad</AttributeID>
+              <KeyColumns>
+                <KeyColumn dwd:design-time-name="1e431a75-1136-4832-a62e-f80f55a2df80">
+                  <DataType>WChar</DataType>
+                  <DataSize>64</DataSize>
+                  <Source xsi:type="ColumnBinding" dwd:design-time-name="f3adc08a-733b-44a7-9901-00661de979c6">
+                    <TableID>rrec_v_programas</TableID>
+                    <ColumnID>nb_facultad</ColumnID>
+                  </Source>
+                </KeyColumn>
+              </KeyColumns>
+            </Attribute>
+          </Attributes>
+        </Dimension>
+        <Dimension xsi:type="RegularMeasureGroupDimension" dwd:design-time-name="170196d9-c698-49ef-9810-80e0537ff92e">
+          <CubeDimensionID>v Via Admision</CubeDimensionID>
+          <Attributes>
+            <Attribute dwd:design-time-name="27d23808-24cd-410b-9403-d11c79194839">
+              <AttributeID>Id Via Admision</AttributeID>
+              <KeyColumns>
+                <KeyColumn dwd:design-time-name="994040cb-0709-49d0-8583-c45e972a9581">
+                  <DataType>Integer</DataType>
+                  <NullProcessing>UnknownMember</NullProcessing>
+                  <Source xsi:type="ColumnBinding" dwd:design-time-name="e4d7ee0c-9751-4920-924b-619558a7f70d">
+                    <TableID>rrec_v_hechos_metas</TableID>
+                    <ColumnID>id_via_admision</ColumnID>
+                  </Source>
+                </KeyColumn>
+              </KeyColumns>
+              <Type>Granularity</Type>
+            </Attribute>
+            <Attribute dwd:design-time-name="6b67165c-4e8b-467c-ba2e-5421c8cca8c2">
+              <AttributeID>Clave De La Vía De Admisión</AttributeID>
+              <KeyColumns>
+                <KeyColumn dwd:design-time-name="fd001c08-4821-4c00-ad6c-05983c7518f0">
+                  <DataType>WChar</DataType>
+                  <DataSize>32</DataSize>
+                  <Source xsi:type="ColumnBinding" dwd:design-time-name="67b12971-c5a5-4d34-a4cf-75b097edcf29">
+                    <TableID>rrec_v_via_admision</TableID>
+                    <ColumnID>Clave_x0020_de_x0020_la_x0020_vía_x0020_de_x0020_admisión</ColumnID>
+                  </Source>
+                </KeyColumn>
+              </KeyColumns>
+            </Attribute>
+            <Attribute dwd:design-time-name="f4f56f03-dae5-45b8-bb36-0a09b6ce8a25">
+              <AttributeID>Vía De Admisión</AttributeID>
+              <KeyColumns>
+                <KeyColumn dwd:design-time-name="03cf476b-991d-4627-814c-ae480cc5ce0e">
+                  <DataType>WChar</DataType>
+                  <DataSize>64</DataSize>
+                  <Source xsi:type="ColumnBinding" dwd:design-time-name="f20e7645-cb61-4da9-9062-dde6fd956d19">
+                    <TableID>rrec_v_via_admision</TableID>
+                    <ColumnID>Vía_x0020_de_x0020_admisión</ColumnID>
+                  </Source>
+                </KeyColumn>
+              </KeyColumns>
+            </Attribute>
+          </Attributes>
+        </Dimension>
+        <Dimension xsi:type="RegularMeasureGroupDimension" dwd:design-time-name="5c6142c4-752c-477c-8370-df8e8dcb5653">
+          <CubeDimensionID>Fechas Ultima Actualizacion</CubeDimensionID>
+          <Attributes>
+            <Attribute dwd:design-time-name="6a1a8ca2-7b60-48d8-87cb-00f6d995cbb8">
+              <AttributeID>Id Fecha Ultima Actualizacion</AttributeID>
+              <KeyColumns>
+                <KeyColumn dwd:design-time-name="de97060b-2f23-40b5-b492-11c1f64db6df">
+                  <DataType>Integer</DataType>
+                  <Source xsi:type="ColumnBinding" dwd:design-time-name="8ccbcb4a-a773-4ae9-a7a4-073e127b71b6">
+                    <TableID>rrec_v_hechos_metas</TableID>
+                    <ColumnID>id_fecha_ultima_actualizacion</ColumnID>
+                  </Source>
+                </KeyColumn>
+              </KeyColumns>
+              <Type>Granularity</Type>
+            </Attribute>
+            <Attribute dwd:design-time-name="20e934ff-58ac-4721-9edc-3ea270cf7bfc">
+              <AttributeID>Fecha Ultima Actualizacion</AttributeID>
+              <KeyColumns>
+                <KeyColumn dwd:design-time-name="7b28c676-e382-41aa-b47e-8cb8c278634d">
+                  <DataType>WChar</DataType>
+                  <DataSize>64</DataSize>
+                  <Source xsi:type="ColumnBinding" dwd:design-time-name="e56dd039-802b-4d23-8d32-24ca115dc62c">
+                    <TableID>rrec_v_fechas_ultima_actualizacion</TableID>
+                    <ColumnID>fecha_ultima_actualizacion</ColumnID>
+                  </Source>
+                </KeyColumn>
+              </KeyColumns>
+            </Attribute>
+          </Attributes>
+        </Dimension>
+      </Dimensions>
+      <Partitions />
+      <ProactiveCaching dwd:design-time-name="7f6c6790-6212-4c6b-9eb0-51fef452b6e3">
+        <SilenceInterval>-PT1S</SilenceInterval>
+        <Latency>-PT1S</Latency>
+        <SilenceOverrideInterval>-PT1S</SilenceOverrideInterval>
+        <ForceRebuildInterval>-PT1S</ForceRebuildInterval>
+        <Source xsi:type="ProactiveCachingInheritedBinding" dwd:design-time-name="d184fc5d-eda9-4800-b192-9a5553852893" />
+      </ProactiveCaching>
+    </MeasureGroup>
+    <MeasureGroup dwd:design-time-name="febe2ca0-3cfd-4259-a341-38e36373b0a9">
+      <ID>v Hechos Cupos</ID>
+      <Name>v Hechos Cupos</Name>
+      <CreatedTimestamp>2020-01-10T20:25:07.473333Z</CreatedTimestamp>
+      <LastSchemaUpdate>2022-08-25T22:18:46.166667Z</LastSchemaUpdate>
+      <LastProcessed>2023-02-07T23:34:07.1Z</LastProcessed>
+      <State>Processed</State>
+      <Translations>
+        <Translation dwd:design-time-name="0ac63f45-2632-4dfb-a7dd-9e402a36139e">
+          <Language>1033</Language>
+          <Caption>Hechos Cupos</Caption>
+        </Translation>
+        <Translation dwd:design-time-name="5538db50-398d-46bc-b99c-c981c7b619fb">
+          <Language>2058</Language>
+          <Caption>Hechos Cupos</Caption>
+        </Translation>
+      </Translations>
+      <Measures>
+        <Measure dwd:design-time-name="95ef27a5-ad99-474a-bef3-9c1cdfe92c3f">
+          <ID>Cupo</ID>
+          <Name>Cupo</Name>
+          <AggregateFunction>LastNonEmpty</AggregateFunction>
+          <DataType>Integer</DataType>
+          <Source dwd:design-time-name="af3da027-78ab-431e-9338-c23026220fdc">
+            <DataType>Integer</DataType>
+            <NullProcessing>Preserve</NullProcessing>
+            <Source xsi:type="ColumnBinding" dwd:design-time-name="34a492ff-260f-4ca6-8682-c28377865b24">
+              <TableID>rrec_v_hechos_cupos</TableID>
+              <ColumnID>Cupo</ColumnID>
+            </Source>
+          </Source>
+        </Measure>
+        <Measure dwd:design-time-name="21488f4e-45d0-4966-a081-e44ed31c4b8c">
+          <ID>Sobre Cupo</ID>
+          <Name>Sobre Cupo</Name>
+          <AggregateFunction>LastNonEmpty</AggregateFunction>
+          <DataType>Integer</DataType>
+          <Source dwd:design-time-name="04bcabc4-62c7-4cf5-a506-0ffb53d7b166">
+            <DataType>Integer</DataType>
+            <NullProcessing>Preserve</NullProcessing>
+            <Source xsi:type="ColumnBinding" dwd:design-time-name="f006176d-025f-45cb-b10b-3c28e5b0f2c0">
+              <TableID>rrec_v_hechos_cupos</TableID>
+              <ColumnID>Sobre_x0020_cupo</ColumnID>
+            </Source>
+          </Source>
+        </Measure>
+        <Measure dwd:design-time-name="d729e9e7-eff0-4c0a-8ee2-5be08be3f785">
+          <ID>v Hechos Cupos Count</ID>
+          <Name>Contador cupos</Name>
+          <AggregateFunction>Count</AggregateFunction>
+          <DataType>Integer</DataType>
+          <Source dwd:design-time-name="72ed5020-131b-4d25-8373-e9ae2945c26b">
+            <DataType>Integer</DataType>
+            <DataSize>4</DataSize>
+            <Source xsi:type="RowBinding" dwd:design-time-name="b64af787-e16d-4102-96e8-188e25309e47">
+              <TableID>rrec_v_hechos_cupos</TableID>
+            </Source>
+          </Source>
+          <Translations>
+            <Translation dwd:design-time-name="9dbd9733-1741-4e17-8d14-81abe734f3fe">
+              <Language>1033</Language>
+              <Caption>Contador Registros</Caption>
+            </Translation>
+            <Translation dwd:design-time-name="7372ec2c-d8d5-4d46-9b4a-b0e214041639">
+              <Language>2058</Language>
+              <Caption>Contador Registros</Caption>
+            </Translation>
+          </Translations>
+        </Measure>
+      </Measures>
+      <StorageMode>Molap</StorageMode>
+      <EstimatedSize>194884</EstimatedSize>
+      <ProcessingMode>Regular</ProcessingMode>
+      <Dimensions>
+        <Dimension xsi:type="RegularMeasureGroupDimension" dwd:design-time-name="204da4ae-a7c9-43d1-92d4-dddf746270a8">
+          <CubeDimensionID>Dias Horas Monitoreo</CubeDimensionID>
+          <Attributes>
+            <Attribute dwd:design-time-name="9ea3102e-5687-40a7-a7e6-030b7788494a">
+              <AttributeID>Id Dia Hora Monitoreo</AttributeID>
+              <KeyColumns>
+                <KeyColumn dwd:design-time-name="abd1cf99-f814-45fc-b4fe-33b9ecf60196">
+                  <DataType>Integer</DataType>
+                  <Source xsi:type="ColumnBinding" dwd:design-time-name="cb326aac-66ce-40d6-9184-5c9cb5527b6b">
+                    <TableID>rrec_v_hechos_cupos</TableID>
+                    <ColumnID>id_dia_hora_monitoreo</ColumnID>
+                  </Source>
+                </KeyColumn>
+              </KeyColumns>
+              <Type>Granularity</Type>
+            </Attribute>
+            <Attribute dwd:design-time-name="91d72556-8d5e-435c-8855-3e0dd340ba1d">
+              <AttributeID>No Hora Ejecucion</AttributeID>
+              <KeyColumns>
+                <KeyColumn dwd:design-time-name="f0d88bd0-b40c-46d8-987b-a91547d16e59">
+                  <DataType>WChar</DataType>
+                  <DataSize>6</DataSize>
+                  <Source xsi:type="ColumnBinding" dwd:design-time-name="c6f0866a-d531-4ac3-ad9b-48ccef336e3e">
+                    <TableID>rrec_v_dias_horas_monitoreo</TableID>
+                    <ColumnID>Periodo</ColumnID>
+                  </Source>
+                </KeyColumn>
+                <KeyColumn dwd:design-time-name="c8bbdd89-0f76-4734-a367-3e5769ae64c9">
+                  <DataType>Integer</DataType>
+                  <Source xsi:type="ColumnBinding" dwd:design-time-name="3d3e363e-6cf1-4399-9a37-cced2931fc8b">
+                    <TableID>rrec_v_dias_horas_monitoreo</TableID>
+                    <ColumnID>no_dia_ejecucion</ColumnID>
+                  </Source>
+                </KeyColumn>
+                <KeyColumn dwd:design-time-name="201a6b7a-0f27-4f1b-8b56-4f0b54fdd793">
+                  <DataType>Integer</DataType>
+                  <Source xsi:type="ColumnBinding" dwd:design-time-name="660a41cd-6864-49bc-84f2-66a02873330b">
+                    <TableID>rrec_v_dias_horas_monitoreo</TableID>
+                    <ColumnID>no_hora_ejecucion</ColumnID>
+                  </Source>
+                </KeyColumn>
+              </KeyColumns>
+            </Attribute>
+            <Attribute dwd:design-time-name="467c358b-72bf-4262-9544-e424aed338e1">
+              <AttributeID>Fecha</AttributeID>
+              <KeyColumns>
+                <KeyColumn dwd:design-time-name="8a791c19-3124-4c87-878c-0c33649bd2ce">
+                  <DataType>Integer</DataType>
+                  <Source xsi:type="ColumnBinding" dwd:design-time-name="a1d43f21-cacb-472c-a5a8-00ef732f7b6e">
+                    <TableID>rrec_v_dias_horas_monitoreo</TableID>
+                    <ColumnID>Fecha</ColumnID>
+                  </Source>
+                </KeyColumn>
+              </KeyColumns>
+            </Attribute>
+            <Attribute dwd:design-time-name="e74dab42-7cbf-49c6-87a3-a60d3d5e8c32">
+              <AttributeID>Hora Monitoreo</AttributeID>
+              <KeyColumns>
+                <KeyColumn dwd:design-time-name="7d933aea-a533-4412-a2d5-7ab9ee7892d3">
+                  <DataType>WChar</DataType>
+                  <DataSize>6</DataSize>
+                  <Source xsi:type="ColumnBinding" dwd:design-time-name="88a84311-9772-4f77-a70d-cce77690bfc1">
+                    <TableID>rrec_v_dias_horas_monitoreo</TableID>
+                    <ColumnID>Hora_x0020_monitoreo</ColumnID>
+                  </Source>
+                </KeyColumn>
+              </KeyColumns>
+            </Attribute>
+            <Attribute dwd:design-time-name="1f4b2fbe-5aec-418d-aafd-c40ea6b084ca">
+              <AttributeID>Periodo</AttributeID>
+              <KeyColumns>
+                <KeyColumn dwd:design-time-name="e708fe70-399f-4bb4-8a56-d1676b9c2352">
+                  <DataType>WChar</DataType>
+                  <DataSize>6</DataSize>
+                  <Source xsi:type="ColumnBinding" dwd:design-time-name="90742e9f-7d97-4dfc-8ea1-8eb1dfa8a38f">
+                    <TableID>rrec_v_dias_horas_monitoreo</TableID>
+                    <ColumnID>Periodo</ColumnID>
+                  </Source>
+                </KeyColumn>
+              </KeyColumns>
+            </Attribute>
+            <Attribute dwd:design-time-name="c0c77222-b169-4305-aee1-37c78ffcb58d">
+              <AttributeID>No Dia Ejecucion</AttributeID>
+              <KeyColumns>
+                <KeyColumn dwd:design-time-name="05e8de0c-9436-48bd-9149-d521433d9801">
+                  <DataType>WChar</DataType>
+                  <DataSize>6</DataSize>
+                  <Source xsi:type="ColumnBinding" dwd:design-time-name="f8a30660-5576-46f9-a554-36fdd802fc74">
+                    <TableID>rrec_v_dias_horas_monitoreo</TableID>
+                    <ColumnID>Periodo</ColumnID>
+                  </Source>
+                </KeyColumn>
+                <KeyColumn dwd:design-time-name="f34d4399-a952-4488-98b1-28d67d7d64e4">
+                  <DataType>Integer</DataType>
+                  <Source xsi:type="ColumnBinding" dwd:design-time-name="6f562dfa-c3ad-4810-967a-29f133ea20b3">
+                    <TableID>rrec_v_dias_horas_monitoreo</TableID>
+                    <ColumnID>no_dia_ejecucion</ColumnID>
+                  </Source>
+                </KeyColumn>
+              </KeyColumns>
+            </Attribute>
+            <Attribute dwd:design-time-name="40340203-2320-47eb-a32d-76731b825564">
+              <AttributeID>No Dia Ejecucion 1</AttributeID>
+              <KeyColumns>
+                <KeyColumn dwd:design-time-name="8471b88d-cbc2-4d0a-8408-b3bc95ec1328">
+                  <DataType>Integer</DataType>
+                  <Source xsi:type="ColumnBinding" dwd:design-time-name="ef1f69e6-1b6b-4286-b8e7-d0b4fe9a07e0">
+                    <TableID>rrec_v_dias_horas_monitoreo</TableID>
+                    <ColumnID>no_dia_ejecucion</ColumnID>
+                  </Source>
+                </KeyColumn>
+              </KeyColumns>
+            </Attribute>
+          </Attributes>
+        </Dimension>
+        <Dimension xsi:type="RegularMeasureGroupDimension" dwd:design-time-name="c881cf91-96dc-4883-afc1-05c8db63e4c6">
+          <CubeDimensionID>v Programas</CubeDimensionID>
+          <Attributes>
+            <Attribute dwd:design-time-name="c687b8c7-df83-416e-aa03-82bbb0637677">
+              <AttributeID>Id Programa</AttributeID>
+              <KeyColumns>
+                <KeyColumn dwd:design-time-name="4994ff5c-912b-4b04-904e-260b5e3eab7d">
+                  <DataType>Integer</DataType>
+                  <NullProcessing>UnknownMember</NullProcessing>
+                  <Source xsi:type="ColumnBinding" dwd:design-time-name="e10be207-0940-4739-997e-4d64670fd1f8">
+                    <TableID>rrec_v_hechos_cupos</TableID>
+                    <ColumnID>id_programa</ColumnID>
+                  </Source>
+                </KeyColumn>
+              </KeyColumns>
+              <Type>Granularity</Type>
+            </Attribute>
+            <Attribute dwd:design-time-name="82120ab7-7c9d-45cd-ba31-0e1c99a0f341">
+              <AttributeID>Nb Clave Programa</AttributeID>
+              <KeyColumns>
+                <KeyColumn dwd:design-time-name="17d63252-6fbe-4560-b7e7-28b77db26ebb">
+                  <DataType>BigInt</DataType>
+                  <Source xsi:type="ColumnBinding" dwd:design-time-name="85ea88f3-6f7d-4eba-adc2-431f0185c244">
+                    <TableID>rrec_v_programas</TableID>
+                    <ColumnID>no_orden_clave_programa</ColumnID>
+                  </Source>
+                </KeyColumn>
+              </KeyColumns>
+            </Attribute>
+            <Attribute dwd:design-time-name="6121c046-3349-4a74-9fd4-c366fda2bcc6">
+              <AttributeID>Nb Programa</AttributeID>
+              <KeyColumns>
+                <KeyColumn dwd:design-time-name="0c5f237a-ed5e-4b5e-bb23-0a26bd2be28a">
+                  <DataType>Integer</DataType>
+                  <Source xsi:type="ColumnBinding" dwd:design-time-name="b75f03d3-ebe5-4204-acec-0bfca0e687b7">
+                    <TableID>rrec_v_programas</TableID>
+                    <ColumnID>no_orden_programa</ColumnID>
+                  </Source>
+                </KeyColumn>
+              </KeyColumns>
+            </Attribute>
+            <Attribute dwd:design-time-name="5cb020c6-77c9-476c-9719-2b85d72c7675">
+              <AttributeID>Nb Clave Programa Alterno</AttributeID>
+              <KeyColumns>
+                <KeyColumn dwd:design-time-name="17efc2a5-9ad5-47a6-b0f3-a486b36e49d0">
+                  <DataType>Integer</DataType>
+                  <Source xsi:type="ColumnBinding" dwd:design-time-name="f3c9215e-3217-40a4-a260-40e4b327aa92">
+                    <TableID>rrec_v_programas</TableID>
+                    <ColumnID>no_orden_clave_programa_alterno</ColumnID>
+                  </Source>
+                </KeyColumn>
+              </KeyColumns>
+            </Attribute>
+            <Attribute dwd:design-time-name="7981f293-d06c-4bec-b3d2-aad3c670815a">
+              <AttributeID>Nb Programa Alterno</AttributeID>
+              <KeyColumns>
+                <KeyColumn dwd:design-time-name="1ae4cb1c-7806-46fa-8d1b-e47beeeb7047">
+                  <DataType>Integer</DataType>
+                  <Source xsi:type="ColumnBinding" dwd:design-time-name="b0950a24-a971-4906-aa97-1dddbb8610d7">
+                    <TableID>rrec_v_programas</TableID>
+                    <ColumnID>no_orden_programa_alterno</ColumnID>
+                  </Source>
+                </KeyColumn>
+              </KeyColumns>
+            </Attribute>
+            <Attribute dwd:design-time-name="2eabecc6-c1da-43ea-a05e-87db2e6bcbae">
+              <AttributeID>Nb Facultad</AttributeID>
+              <KeyColumns>
+                <KeyColumn dwd:design-time-name="8820496b-5679-48e1-b145-a553649cc276">
+                  <DataType>WChar</DataType>
+                  <DataSize>64</DataSize>
+                  <Source xsi:type="ColumnBinding" dwd:design-time-name="55f3ce9c-9a97-4b0f-a314-94ce5159b4fa">
+                    <TableID>rrec_v_programas</TableID>
+                    <ColumnID>nb_facultad</ColumnID>
+                  </Source>
+                </KeyColumn>
+              </KeyColumns>
+            </Attribute>
+          </Attributes>
+        </Dimension>
+        <Dimension xsi:type="RegularMeasureGroupDimension" dwd:design-time-name="253fe2cb-7a7e-4b15-951f-096cba0c83b4">
+          <CubeDimensionID>Fechas Ultima Actualizacion</CubeDimensionID>
+          <Attributes>
+            <Attribute dwd:design-time-name="b7deabc5-eb34-47d8-84f0-a1bb872ebbc3">
+              <AttributeID>Id Fecha Ultima Actualizacion</AttributeID>
+              <KeyColumns>
+                <KeyColumn dwd:design-time-name="169f4dea-9c74-48ac-a2be-d56a34c2a771">
+                  <DataType>Integer</DataType>
+                  <Source xsi:type="ColumnBinding" dwd:design-time-name="4a946765-c888-4813-9994-edf2024054fb">
+                    <TableID>rrec_v_hechos_cupos</TableID>
+                    <ColumnID>id_fecha_ultima_actualizacion</ColumnID>
+                  </Source>
+                </KeyColumn>
+              </KeyColumns>
+              <Type>Granularity</Type>
+            </Attribute>
+            <Attribute dwd:design-time-name="1db2f45d-d248-4dce-bba5-2d438643d935">
+              <AttributeID>Fecha Ultima Actualizacion</AttributeID>
+              <KeyColumns>
+                <KeyColumn dwd:design-time-name="377e7164-8619-4f5c-bda4-accc97a273a2">
+                  <DataType>WChar</DataType>
+                  <DataSize>64</DataSize>
+                  <Source xsi:type="ColumnBinding" dwd:design-time-name="dc1ea367-0439-4150-9c11-d221123dca13">
+                    <TableID>rrec_v_fechas_ultima_actualizacion</TableID>
+                    <ColumnID>fecha_ultima_actualizacion</ColumnID>
+                  </Source>
+                </KeyColumn>
+              </KeyColumns>
+            </Attribute>
+          </Attributes>
+        </Dimension>
+      </Dimensions>
+      <Partitions />
+      <ProactiveCaching dwd:design-time-name="e1768d76-ba2e-4e96-8572-f50b29254dc4">
+        <SilenceInterval>-PT1S</SilenceInterval>
+        <Latency>-PT1S</Latency>
+        <SilenceOverrideInterval>-PT1S</SilenceOverrideInterval>
+        <ForceRebuildInterval>-PT1S</ForceRebuildInterval>
+        <Source xsi:type="ProactiveCachingInheritedBinding" dwd:design-time-name="48f439a1-4e5f-4bda-8db6-546612e3cdfa" />
+      </ProactiveCaching>
+    </MeasureGroup>
+  </MeasureGroups>
+  <Source dwd:design-time-name="719305f9-aeec-4610-9fe7-5e59a3b1ad63">
+    <DataSourceViewID>UFT IMB DWH</DataSourceViewID>
+  </Source>
+  <MdxScripts>
+    <MdxScript dwd:design-time-name="85ab2548-c4db-4c2d-94d6-8812caabe790">
+      <ID>MdxScript</ID>
+      <Name>MdxScript</Name>
+      <CreatedTimestamp>2020-01-09T20:13:40.77Z</CreatedTimestamp>
+      <LastSchemaUpdate>2022-08-25T22:18:46.483333Z</LastSchemaUpdate>
+      <Commands>
+        <Command>
+          <Text>/*
+The CALCULATE command controls the aggregation of leaf cells in the cube.
+If the CALCULATE command is deleted or modified, the data within the cube is affected.
+You should edit this command only if you manually specify how the cube is aggregated.
+*/
+CALCULATE;
+ 
+CREATE MEMBER CURRENTCUBE.[Measures].[Acumulado Nuevos Ingresos]
+ AS iif ( SUM(YTD(),[Measures].[Nuevos Ingresos]) = 0 , 
+          NULL,
+          SUM(YTD(),[Measures].[Nuevos Ingresos])),
+FORMAT_STRING = "#,##0;-#,##0", 
+VISIBLE = 1 ,  ASSOCIATED_MEASURE_GROUP = 'v Hechos Nuevos Ingresos'  ; 
+
+CREATE MEMBER CURRENTCUBE.[Measures].[Acumulado Convocados]
+ AS iif ( SUM(YTD(),[Measures].[Convocados]) = 0 , 
+          NULL,
+          SUM(YTD(),[Measures].[Convocados])),
+FORMAT_STRING = "#,##0;-#,##0", 
+VISIBLE = 1 ,  ASSOCIATED_MEASURE_GROUP = 'v Hechos Nuevos Ingresos'  ; 
+
+CREATE MEMBER CURRENTCUBE.[Measures].[Acumulado Lista de Espera]
+ AS iif ( SUM(YTD(),[Measures].[Lista De Espera]) = 0 , 
+          NULL,
+          SUM(YTD(),[Measures].[Lista De Espera])),
+FORMAT_STRING = "#,##0;-#,##0", 
+VISIBLE = 1 ,  ASSOCIATED_MEASURE_GROUP = 'v Hechos Nuevos Ingresos'  ; 
+
+CREATE MEMBER CURRENTCUBE.[Measures].[Acumulado Retractos]
+ AS iif ( SUM(YTD(),[Measures].[Retractos]) = 0 , 
+          NULL,
+          SUM(YTD(),[Measures].[Retractos])),
+FORMAT_STRING = "#,##0;-#,##0", 
+VISIBLE = 1 ,  ASSOCIATED_MEASURE_GROUP = 'v Hechos Nuevos Ingresos'  ; 
+
+/* Acumulados año anterior*/
+
+CREATE MEMBER CURRENTCUBE.[Measures].[Acum Ingresos Anterior]
+ AS iif ([Dias Horas Monitoreo].[Periodos monitoreo].LEVEL IS [Dias Horas Monitoreo].[Periodos monitoreo].[Periodo],
+         (ParallelPeriod([Dias Horas Monitoreo].[Periodos monitoreo].[Periodo],  1), [Measures].[Acumulado Nuevos Ingresos]),
+         iif ([Dias Horas Monitoreo].[Periodos monitoreo].LEVEL IS [Dias Horas Monitoreo].[Periodos monitoreo].[No Dia Ejecucion],
+              (ParallelPeriod([Dias Horas Monitoreo].[Periodos monitoreo].[No Dia Ejecucion], 10), [Measures].[Acumulado Nuevos Ingresos]),
+               iif([Dias Horas Monitoreo].[Periodos monitoreo].LEVEL IS [Dias Horas Monitoreo].[Periodos monitoreo].[No Hora Ejecucion],
+                    (ParallelPeriod([Dias Horas Monitoreo].[Periodos monitoreo].[No Hora Ejecucion], 270), [Measures].[Acumulado Nuevos Ingresos]),
+                    NULL
+                  )
+              )
+        ),
+FORMAT_STRING = "#,##0;-#,##0", 
+VISIBLE = 1 ,  ASSOCIATED_MEASURE_GROUP = 'v Hechos Nuevos Ingresos'  ; 
+
+CREATE MEMBER CURRENTCUBE.[Measures].[Acum Convocados Anterior]
+ AS iif ([Dias Horas Monitoreo].[Periodos monitoreo].LEVEL IS [Dias Horas Monitoreo].[Periodos monitoreo].[Periodo],
+         (ParallelPeriod([Dias Horas Monitoreo].[Periodos monitoreo].[Periodo],  1), [Measures].[Acumulado Convocados]),
+         iif ([Dias Horas Monitoreo].[Periodos monitoreo].LEVEL IS [Dias Horas Monitoreo].[Periodos monitoreo].[No Dia Ejecucion],
+              (ParallelPeriod([Dias Horas Monitoreo].[Periodos monitoreo].[No Dia Ejecucion], 10), [Measures].[Acumulado Convocados]),
+               iif([Dias Horas Monitoreo].[Periodos monitoreo].LEVEL IS [Dias Horas Monitoreo].[Periodos monitoreo].[No Hora Ejecucion],
+                    (ParallelPeriod([Dias Horas Monitoreo].[Periodos monitoreo].[No Hora Ejecucion], 270), [Measures].[Acumulado Convocados]),
+                    NULL
+                  )
+              )
+        ),
+FORMAT_STRING = "#,##0;-#,##0", 
+VISIBLE = 1 ,  ASSOCIATED_MEASURE_GROUP = 'v Hechos Nuevos Ingresos'  ; 
+
+CREATE MEMBER CURRENTCUBE.[Measures].[Acum Lista de Espera Anterior]
+ AS iif ([Dias Horas Monitoreo].[Periodos monitoreo].LEVEL IS [Dias Horas Monitoreo].[Periodos monitoreo].[Periodo],
+         (ParallelPeriod([Dias Horas Monitoreo].[Periodos monitoreo].[Periodo],  1), [Measures].[Acumulado Lista de Espera]),
+         iif ([Dias Horas Monitoreo].[Periodos monitoreo].LEVEL IS [Dias Horas Monitoreo].[Periodos monitoreo].[No Dia Ejecucion],
+              (ParallelPeriod([Dias Horas Monitoreo].[Periodos monitoreo].[No Dia Ejecucion], 10), [Measures].[Acumulado Lista de Espera]),
+               iif([Dias Horas Monitoreo].[Periodos monitoreo].LEVEL IS [Dias Horas Monitoreo].[Periodos monitoreo].[No Hora Ejecucion],
+                    (ParallelPeriod([Dias Horas Monitoreo].[Periodos monitoreo].[No Hora Ejecucion], 270), [Measures].[Acumulado Lista de Espera]),
+                    NULL
+                  )
+              )
+        ),
+FORMAT_STRING = "#,##0;-#,##0", 
+VISIBLE = 1 ,  ASSOCIATED_MEASURE_GROUP = 'v Hechos Nuevos Ingresos'  ; 
+
+CREATE MEMBER CURRENTCUBE.[Measures].[Acum Retractos Anterior]
+ AS iif ([Dias Horas Monitoreo].[Periodos monitoreo].LEVEL IS [Dias Horas Monitoreo].[Periodos monitoreo].[Periodo],
+         (ParallelPeriod([Dias Horas Monitoreo].[Periodos monitoreo].[Periodo],  1), [Measures].[Acumulado Retractos]),
+         iif ([Dias Horas Monitoreo].[Periodos monitoreo].LEVEL IS [Dias Horas Monitoreo].[Periodos monitoreo].[No Dia Ejecucion],
+              (ParallelPeriod([Dias Horas Monitoreo].[Periodos monitoreo].[No Dia Ejecucion], 10), [Measures].[Acumulado Retractos]),
+               iif([Dias Horas Monitoreo].[Periodos monitoreo].LEVEL IS [Dias Horas Monitoreo].[Periodos monitoreo].[No Hora Ejecucion],
+                    (ParallelPeriod([Dias Horas Monitoreo].[Periodos monitoreo].[No Hora Ejecucion], 270), [Measures].[Acumulado Retractos]),
+                    NULL
+                  )
+              )
+        ),
+FORMAT_STRING = "#,##0;-#,##0", 
+VISIBLE = 1 ,  ASSOCIATED_MEASURE_GROUP = 'v Hechos Nuevos Ingresos'  ; 
+
+
+CREATE MEMBER CURRENTCUBE.[Measures].[KPI]
+ AS iif ([Measures].[Acum Ingresos Anterior] &lt;&gt; 0,
+            iif ([Measures].[Acumulado Nuevos Ingresos] / [Measures].[Acum Ingresos Anterior] &gt;= 0.75, 
+                 1,
+                   iif ([Measures].[Acumulado Nuevos Ingresos] / [Measures].[Acum Ingresos Anterior] &gt;= 0.50, 
+                   0,
+                  -1   )                 
+                 ), 
+            iif ([Measures].[Acumulado Nuevos Ingresos] &gt; 0, 
+                 2,
+                 NULL) 
+        ),
+FORMAT_STRING = "#,##0;-#,##0", 
+VISIBLE = 1 ,  ASSOCIATED_MEASURE_GROUP = 'v Hechos Nuevos Ingresos'; </Text>
+        </Command>
+      </Commands>
+    </MdxScript>
+  </MdxScripts>
+  <Kpis>
+    <Kpi dwd:design-time-name="919a21ac-202f-4ef1-afd3-0d818259405e">
+      <ID>KPI</ID>
+      <Name>Anterior vs Actual</Name>
+      <AssociatedMeasureGroupID>v Hechos Nuevos Ingresos</AssociatedMeasureGroupID>
+      <Value>[Measures].[Acumulado Nuevos Ingresos]</Value>
+      <Goal>[Measures].[Acum Ingresos Anterior]</Goal>
+      <Status>Case  
+  When (KpiValue("Anterior vs Actual") / KpiGoal("Anterior vs Actual")) &gt;= 0.75  Then 1 
+  When (KpiValue("Anterior vs Actual") / KpiGoal("Anterior vs Actual")) &gt;= 0.50  THEN 0
+  When  KpiValue("Anterior vs Actual") = 0 AND KpiGoal("Anterior vs Actual") = 0 THEN NULL
+  When (KpiValue("Anterior vs Actual") / KpiGoal("Anterior vs Actual")) &gt;= 0     THEN -1
+  When  KpiValue("Anterior vs Actual") &gt; 0 AND KpiGoal("Anterior vs Actual") = 0 THEN 2
+  ELSE NULL  
+End </Status>
+      <TrendGraphic>Standard Arrow</TrendGraphic>
+      <StatusGraphic>Shapes</StatusGraphic>
+    </Kpi>
+  </Kpis>
+  <ProactiveCaching dwd:design-time-name="c33934e2-5da2-47f3-8cd5-b7c2f4a96a07">
+    <SilenceInterval>-PT1S</SilenceInterval>
+    <Latency>-PT1S</Latency>
+    <SilenceOverrideInterval>-PT1S</SilenceOverrideInterval>
+    <ForceRebuildInterval>-PT1S</ForceRebuildInterval>
+    <Source xsi:type="ProactiveCachingInheritedBinding" dwd:design-time-name="8f34acdf-0731-4ca5-bec9-bfd1907cd8fe" />
+  </ProactiveCaching>
+</Cube>
