@@ -1,0 +1,12 @@
+E:\Paquetes SSAS\UFT_MNI_TAB\bin\Model.asdatabase
+E:\Paquetes SSAS\UFT_MNI_TAB\bin\Model.deploymenttargets
+E:\Paquetes SSAS\UFT_MNI_TAB\bin\Model.deploymentoptions
+E:\Paquetes SSAS\UFT_MNI_TAB\obj\Development\Model.asdatabase
+E:\Paquetes SSAS\UFT_MNI_TAB\obj\Development\Model.deploymentoptions
+E:\Paquetes SSAS\UFT_MNI_TAB\obj\Development\Model.deploymenttargets
+\\Msazbi02\e$\Paquetes SSAS\UFT_MNI_TAB\bin\Model.asdatabase
+\\Msazbi02\e$\Paquetes SSAS\UFT_MNI_TAB\bin\Model.deploymenttargets
+\\Msazbi02\e$\Paquetes SSAS\UFT_MNI_TAB\bin\Model.deploymentoptions
+\\Msazbi02\e$\Paquetes SSAS\UFT_MNI_TAB\obj\Development\Model.asdatabase
+\\Msazbi02\e$\Paquetes SSAS\UFT_MNI_TAB\obj\Development\Model.deploymentoptions
+\\Msazbi02\e$\Paquetes SSAS\UFT_MNI_TAB\obj\Development\Model.deploymenttargets
